@@ -40,6 +40,13 @@
 			"translation/fairy/german.json"
 		]
 	},
+	"ukrainian" : {
+		"name" : "Місто Фей",
+		"description" : "Нове місто від New fairy Team та Turbanellos",
+		"translations" : [
+			"translation/fairy/ukrainian.json"
+		]
+	},	
 	"russian" : {
 		"name" : "Город Фей",
 		"description" : "Feenwald Stadt",
