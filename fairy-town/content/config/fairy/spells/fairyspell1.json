@@ -37,7 +37,7 @@
 				"range": "0-1",
 				"power": 10,
 				"cost": 0,
-				"aiValue": 20,
+//				"aiValue": 20,
 				"targetModifier":
 				{
 					"smart": true
@@ -54,7 +54,7 @@
 					"boostAttack":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
+						"subtype" : "attack",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -62,7 +62,7 @@
 					"boostDefense":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
+						"subtype" : "defence",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -74,160 +74,16 @@
 			},
 			"none":
 			{
-			
-			"range": "0-1",
-				"power": 10,
-				"cost": 0,
-				"aiValue": 20,
-				"targetModifier":
-				{
-					"smart": true
-				},
-				"battleEffects":{
-
-					"lifeEater" :
-					{
-					"type": "core:timed",
-					"cumulative": true,
-					"bonus":
-					{
-					"boostAttack":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
-					},
-					"boostDefense":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
-					}
-					}
-			}
-				},
-				"description": " "
 			},
 			"basic":
 			{
-			"range": "0-1",
-				"power": 10,
-				"cost": 0,
-				"aiValue": 20,
-				"targetModifier":
-				{
-					"smart": true
-				},
-				"battleEffects":{
-
-					"lifeEater" :
-					{
-					"type": "core:timed",
-					"cumulative": true,
-					"bonus":
-					{
-					"boostAttack":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
-					},
-					"boostDefense":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
-					}
-					}
-			}
-				},
-				"description": " "
 			},
 			"advanced":
 			{
-			"range": "0-1",
-				"power": 10,
-				"cost": 0,
-				"aiValue": 20,
-				"targetModifier":
-				{
-					"smart": true
-				},
-				"battleEffects":{
 
-					"lifeEater" :
-					{
-					"type": "core:timed",
-					"cumulative": true,
-					"bonus":
-					{
-					"boostAttack":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
-					},
-					"boostDefense":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
-					}
-					}
-			}
-				},
-				"description": " "
 			},
 			"expert":
 			{
-			"range": "0-1",
-				"power": 10,
-				"cost": 0,
-				"aiValue": 20,
-				"targetModifier":
-				{
-					"smart": true
-				},
-				"battleEffects":{
-
-					"lifeEater" :
-					{
-					"type": "core:timed",
-					"cumulative": true,
-					"bonus":
-					{
-					"boostAttack":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
-					},
-					"boostDefense":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
-					}
-					}
-			}
-				},
-				"description": "吞食目标生物的生命值来强化自身。"
 			}
 		}
 	}

@@ -51,6 +51,10 @@
 		"levels" : {
 			"base":{
 				"range" : "0-16",
+				"description": "{Rose Bolt}\r\n\r\nYou cannot see this description.",
+				"cost": 0,
+//				"aiValue": 12,
+				"power": 10,				
 				"battleEffects" : {
 					"directDamage" : {
 						"type":"core:damage"
@@ -60,35 +64,15 @@
 			},
 			"none":
 			{
-				"description": "{Rose Bolt}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 10
 			},
 			"basic":
 			{
-				"description": "{Rose Bolt}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 10
 			},
 			"advanced":
 			{
-				"description": "{Rose Bolt}\r\n\r\nYou cannot see this description.。",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 10
 			},
 			"expert":
 			{
-				"description": "{Rose Bolt}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 10
 			}
 			}
 		}

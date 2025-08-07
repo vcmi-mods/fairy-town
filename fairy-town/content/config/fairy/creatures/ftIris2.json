@@ -65,13 +65,13 @@
 			"resurrection40hp" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.irisRevive",
+				"subtype" : "irisRevive",
 				"val" : 60
 			},
 			"resurrects" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.irisRevive",
+				"subtype" : "irisRevive",
 				"val" : 3
 			},
 			"spellpoints" :
@@ -83,13 +83,17 @@
 			{
 				"type" : "LUCK",
 				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "{Positive luck}\nAurora's luck cannot be decreased below +1",
+				"icon" : "fairy/icons/bonuses/positiveluck.png"					
 			},
 		"selfmorale" :
 			{
 				"type" : "MORALE",
 				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "{Positive morale}\nAurora's morale cannot be decreased below +1",
+				"icon" : "fairy/icons/bonuses/e_minot.png"				
 			}
 		},
 		"stackExperience" :
@@ -138,7 +142,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.boneDragon"
+					"subtype" : "boneDragon"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]			
 			},
@@ -146,14 +150,16 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.ghostDragon"
+					"subtype" : "ghostDragon"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]			
 			},
 			{
 				"bonus" :
 				{
-					"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 0
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			},

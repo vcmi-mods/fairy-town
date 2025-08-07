@@ -126,7 +126,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.skeleton"
+					"subtype" : "skeleton"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
 			},
@@ -134,14 +134,15 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.skeletonWarrior"
+					"subtype" : "skeletonWarrior"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
 			},
 			{
 				"bonus" :
 				{
-					"type" : "MAGIC_RESISTANCE"
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "any"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 			}

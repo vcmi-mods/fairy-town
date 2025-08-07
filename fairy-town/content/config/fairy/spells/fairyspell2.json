@@ -60,12 +60,13 @@
 			{
 				"cost": 16,
 				"power": 10,
-				"aiValue": 70,
+//				"aiValue": 70,
 				"targetModifier":
 				{
 					"smart": false
 				},
-				
+				"range" : "0",
+				"description": "{Pacifism}\n\n.",				
 				"effects":
 				{
 				"noRetaliation" : {
@@ -94,25 +95,16 @@
 			},
 			"none":
 			{
-				"range" : "0",
-				"description": "{Pacifism}\n\n."
-	
 			},
 			"basic":
 			{ 
-				"range" : "0",
-				"description": "{Pacifism}\n\n."
 			},
 			"advanced":
 			{
-				"range" : "0",
-				"description": "{Pacifism}\n\n."
 			},
 			"expert":
 			{
-				"cost": 14,
-				"range" : "0",
-				"description": "{Pacifism}\n\n."
+				"cost": 14
 			}
 		}
 	}

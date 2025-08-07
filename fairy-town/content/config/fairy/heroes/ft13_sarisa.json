@@ -63,7 +63,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"blind" : {
-					"subtype" : "spell.blind",
+					"subtype" : "blind",
+					"val" : 3,
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}

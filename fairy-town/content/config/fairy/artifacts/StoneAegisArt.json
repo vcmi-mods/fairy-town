@@ -15,7 +15,8 @@
 		"graphics":
 		{
 			"image": "fairy/iconsSmall/creatures/artifacts/spinner.bmp",
-			"map"  :   "fairy/map/artifacts/avcnbksm.def"
+			"map"  :   "fairy/map/artifacts/avcnbksm.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		}
 	}
 }

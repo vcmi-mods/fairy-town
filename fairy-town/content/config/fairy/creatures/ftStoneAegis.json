@@ -15,7 +15,11 @@
             {
               "gold": 2500
             },
-		
+		"damage" : 
+		{
+			"min" : 0,
+			"max" : 0
+		},
 		"defense" : 10,
 		"fightValue" : 2500,
 		"graphics" :
@@ -31,6 +35,11 @@
 				"idle" : 40
 			}
 		},
+		"sound" :
+		{
+			"killed": "FAIDKILL.wav",
+			"wince": "FAIDWNCE.wav"
+		},		
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 150,
@@ -51,10 +60,10 @@
 			{
 				"type" : "SIEGE_WEAPON"
 			},
-                     "Healer":
+             "Healer":
 			{
 				"type" : "HEALER",
-				"subtype" : "spell.firstAid"
+				"subtype" : "firstAid"
 			}
 		},
 		"stackExperience" :

@@ -6,7 +6,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC01.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Fool}\r\n\r\nThe first card from Tarot.",
@@ -21,7 +22,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC02.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Magician}\r\n\r\nThe second card from Tarot.",
@@ -36,7 +38,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC03.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The High Priestess}\r\n\r\nThe third card from Tarot.",
@@ -51,7 +54,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC04.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Empress}\r\n\r\nThe fourth card from Tarot.",
@@ -66,7 +70,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC05.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Emperor}\r\n\r\nThe fifth card from Tarot.",
@@ -81,7 +86,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC06.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Hierophant}\r\n\r\nThe sixth card from Tarot.",
@@ -96,7 +102,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC07.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Lovers}\r\n\r\nThe seventh card from Tarot.",
@@ -111,7 +118,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC08.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Chariot}\r\n\r\nThe eighth card from Tarot.",
@@ -126,7 +134,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC09.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{Strength}\r\n\r\nThe nineth card from Tarot.",
@@ -141,7 +150,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC10.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Hermit}\r\n\r\nThe tenth card from Tarot.",
@@ -156,7 +166,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC11.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{Wheel of Fortune}\r\n\r\nThe eleventh card from Tarot.",
@@ -171,7 +182,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC12.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{Justice}\r\n\r\nThe twelfth card from Tarot.",
@@ -186,7 +198,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC13.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Hanged Man}\r\n\r\nThe thirteenth card from Tarot.",
@@ -201,7 +214,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC14.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{Death}\r\n\r\nThe fourteenth card from Tarot.",
@@ -216,7 +230,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC15.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{Temperance}\r\n\r\nThe fifteenth card from Tarot.",
@@ -231,7 +246,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC16.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Devil}\r\n\r\nThe sixteenth card from Tarot.",
@@ -246,7 +262,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC17.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Tower}\r\n\r\nThe seventeenth card from Tarot.",
@@ -261,7 +278,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC18.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Star}\r\n\r\nThe eighteenth card from Tarot.",
@@ -276,7 +294,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC19.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Moon}\r\n\r\nThe nineteenth card from Tarot.",
@@ -291,7 +310,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC20.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The Sun}\r\n\r\nThe twentieth card from Tarot.",
@@ -306,7 +326,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC21.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{Judgement}\r\n\r\nThe twenty-first card from Tarot.",
@@ -321,7 +342,8 @@
 		"value" : 500,
 		"graphics" : {
 			"image": "fairy/map/artifacts/tarotC22.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def"
+			"map": "fairy/map/artifacts/tarotMap.def",
+			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
 			"description" : "{The World}\r\n\r\nThe twenty-second card from Tarot.",

@@ -39,7 +39,7 @@
 		"levels" : {
 			"base":{
 				"targetModifier":{"smart":true},
-				"aiValue": 20,
+//				"aiValue": 20,
 				"cost": 0, 
 				"range":"0",
 				"description": "{Sacred Cure}\r\n\r\nYou cannot see this description.",

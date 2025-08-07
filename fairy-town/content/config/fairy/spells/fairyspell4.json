@@ -47,7 +47,7 @@
 			{
 				"range": "0",
 				"power": 10,
-				"aiValue": 20,
+//				"aiValue": 20,
 				"targetModifier":
 				{
 					"smart": true
@@ -63,7 +63,8 @@
 						{
 							"lifeDrain":
 							{
-								"type": "SYNERGY_TARGET",
+								"type": "NONE",
+//								"type": "SYNERGY_TARGET", bonus SYNERGY_TARGET was removed in 1.7, but it seems it did nothing, so was replaced with NONE
 								"duration": "N_TURNS",
 								"turns": 4
 							}
@@ -91,7 +92,7 @@
 			{
 				"description": "{Garland}\r\n\r\nNo description.",
 	 
-				"cost": 18,		
+				"cost": 18	
 			}
 		}
 	}

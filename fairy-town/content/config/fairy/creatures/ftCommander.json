@@ -79,7 +79,7 @@
 			"magicResistance" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"val" : 5
 			},
 			"castsAmount" :
@@ -100,7 +100,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.counterstrike",
+				"subtype" : "fortune",
 				"val" : 1
                   },
                   "noMind":

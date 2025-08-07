@@ -81,7 +81,7 @@
 			 "roseBolt" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.roseBolt"
+				"subtype" : "roseBolt"
 			},
 			"noPenalty" : 
 			{

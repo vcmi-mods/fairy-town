@@ -57,13 +57,13 @@
 		    "spellAfterAttack" :
 			{
                 "type":"SPELL_AFTER_ATTACK",
-                "subtype":"spell.frPacifism",
+                "subtype":"frPacifism",
                 "val":20,
 		    },
 			"flowerRingAttack" :
 			{
                 "type":"SPELL_AFTER_ATTACK",
-                "subtype":"spell.blossomEff",
+                "subtype":"blossomEff",
                 "val":100
 		    },
 			"castsAmount" :
@@ -84,7 +84,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.counterstrike",
+				"subtype" : "counterstrike",
 				"val" : 2
             },
 			"spellResistAura" :

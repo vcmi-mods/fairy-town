@@ -62,7 +62,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"magicArrow" : {
-					"subtype" : "spell.magicArrow",
+					"subtype" : "magicArrow",
 					"type" : "SPECIFIC_SPELL_DAMAGE",
 					"val" : 50,
 					"valueType" : "BASE_NUMBER"
