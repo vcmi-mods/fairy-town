@@ -1,36 +1,30 @@
 {
-	"ftL_Selvia" :
-	{
+	"ftL_Selvia" : {
 		"class" : "keeper",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Selvia",
 			"biography" : "Selvia has a heart of gold, and a voice that is said to make butterflies dance on the winds. She is also an excellent musician for playing harp.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the speed of Sibyls or Enchantresses by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Sibyls",
 				"name" : "Sibyls"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft12_selvia/sibyl-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft12_selvia/sibyl-spec-large.png",
 			"small" : "fairy/heroes/ft12_selvia/selvia-small.png",
 			"large" : "fairy/heroes/ft12_selvia/selvia-large.png"
 		},
 
-		"spellbook" :
-		[
-			"prayer" 
+		"spellbook" : [
+			"prayer"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -47,9 +41,8 @@
 				"min" : 3
 			}
 		],
-		
-		"skills" :
-		[
+
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,11 +52,9 @@
 				"skill" : "learning"
 			}
 		],
-		
-		"specialty": {
+
+		"specialty" : {
 			"creature" : "ftSibyl1"
-		} 	
+		}
 	}
 }
-
-

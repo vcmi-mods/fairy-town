@@ -1,31 +1,26 @@
 {
-	"ftE_Sheli" :
-	{
+	"ftE_Sheli" : {
 		"class" : "diviner",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Waymon",
 			"biography" : "Waymon's homeland are invaded by tricky Redcaps and some Kreegan Demons. He had to become a leader to leprechauns after escaped. Now he becomes the only male hero in Fairy Town.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of Clauricorns and Leprechauns or each level attained after 2nd level.",
 				"tooltip" : "{Fairy Enchantresses}\r\n\r\nIncreases the Attack and Defense skills of Clauricorns and Leprechauns.",
 				"name" : "Clauricorns"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft5_angus/clauricorn-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft5_angus/clauricorn-spec-large.png",
 			"large" : "fairy/heroes/ft5_angus/angus-large.png",
 			"small" : "fairy/heroes/ft5_angus/angus-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftClauricorn1",
 				"max" : 7,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -54,10 +48,9 @@
 				"skill" : "archery"
 			}
 		],
-		
-		"specialty":
-			{
-				"creature" : "ftClauricorn1"
-			} 
+
+		"specialty" : {
+			"creature" : "ftClauricorn1"
+		}
 	}
 }

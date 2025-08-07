@@ -1,94 +1,185 @@
 {
 	"ftSylph2" : {
 		"abilities" : {
-			"enchanted" : 	
-			{
+			"enchanted" : {
 				"type" : "ENCHANTED",
 				"subtype" : "airShield",
 				"val" : 2
 			},
-			"noRetaliation" : 
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"canFly" :  { "type" : "FLYING", "subtype" : "movementFlying"}
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			}
 		},
-		"stackExperience" :
-
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 2, 3, 3, 4, 4, 5]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ATTACKS_ALL_ADJACENT"
 				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					4
+				]
 			}
 		],
-		"advMapAmount" : { "max" : 16, "min" : 10 },
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
+		},
 		"aiValue" : 576,
 		"attack" : 11,
-		"cost" : { "gold" : 400 },
-		"damage" : { "max" : 10, "min" : 7 },
+		"cost" : {
+			"gold" : 400
+		},
+		"damage" : {
+			"max" : 10,
+			"min" : 7
+		},
 		"defense" : 10,
 		"faction" : "fairy",
 		"fightValue" : 507,
 		"graphics" : {
 			"animation" : "fairy/battle/creatures/CFar08.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconSmall" : "fairy/iconsSmall/creatures/fay08.bmp",
 			"iconLarge" : "fairy/iconsBig/creatures/fairy08.bmp",
 			"map" : "fairy/map/creatures/mapwisp2.def",
@@ -97,14 +188,17 @@
 		"growth" : 4,
 		"hitPoints" : 30,
 		"level" : 4,
-		"name" : { "plural" : "Sylph Mistresses", "singular" : "Sylph Mistress" },
-		"sound" : {
-			"attack": "GENIATTK.wav",
-			"defend": "GENIDFND.wav",
-			"killed": "fairy/SYLPKILL.wav",
-			"move": "GENIMOVE.wav",
-			"wince": "fairy/SYLPWNCE.wav"
+		"name" : {
+			"plural" : "Sylph Mistresses",
+			"singular" : "Sylph Mistress"
 		},
-		"speed" : 9,
+		"sound" : {
+			"attack" : "GENIATTK.wav",
+			"defend" : "GENIDFND.wav",
+			"killed" : "fairy/SYLPKILL.wav",
+			"move" : "GENIMOVE.wav",
+			"wince" : "fairy/SYLPWNCE.wav"
+		},
+		"speed" : 9
 	}
 }

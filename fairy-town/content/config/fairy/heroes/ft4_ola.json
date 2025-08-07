@@ -1,33 +1,26 @@
 {
-	"ftD_Ola" :
-	{
+	"ftD_Ola" : {
 		"class" : "diviner",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ola",
 			"biography" : "One of the finest jewelers in the land, Ola is said to be able to cut a perfect gem from even the most flawed stone.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's income by 1 crystal per day",
 				"tooltip" : "{Crystal}\r\n\r\n+1 Crystal each day",
 				"name" : "+1 Crystal"
 			}
 		},
 
-		
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft4_ola/crystal-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft4_ola/crystal-spec-large.png",
 			"large" : "fairy/heroes/ft4_ola/ola-large.bmp",
 			"small" : "fairy/heroes/ft4_ola/ola-small.bmp"
 		},
 
-
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -45,8 +38,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "estates"
@@ -56,7 +48,7 @@
 				"skill" : "leadership"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"gems" : {

@@ -1,98 +1,87 @@
 {
-	"blossomEff":
-	{
-		"type": "ability", 
-		"name": "Magic Garland",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"blossomEff" : {
+		"type" : "ability",
+		"name" : "Magic Garland",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 1,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance" :
-		{
-			"conflux" : 0		
+		"level" : 1,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"conflux" : 0
 		},
- 
-		"animation":{
-			"affect": ["fairy/spells/frysp5.def"]
+
+		"animation" : {
+			"affect" : [
+				"fairy/spells/frysp5.def"
+			]
 		},
- 
-		"flags" : {"negative": true},
- 
+
+		"flags" : {
+			"negative" : true
+		},
+
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.SIEGE_WEAPON" : "absolute"
 			}
 		},
- 
-		"graphics":
-		{
-			"iconEffect": "fairy/spells/fryspell3.bmp"
+
+		"graphics" : {
+			"iconEffect" : "fairy/spells/fryspell3.bmp"
 		},
 
-		"sounds":
-		{
-			"cast":"FORTUNE"
+		"sounds" : {
+			"cast" : "FORTUNE"
 		},
-		"targetType": "CREATURE",
- 
-		"levels":
-		{
-			"base":
-			{
-				"range": "0",
-				"power": 10,
-//				"aiValue": 20,
-				"targetModifier":
-				{
-					"smart": true
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"power" : 10,
+				//				"aiValue": 20,
+				"targetModifier" : {
+					"smart" : true
 				},
-				"description": "{Garland}\r\n\r\nNo description.",	 
-				"cost": 15,				
+				"description" : "{Garland}\r\n\r\nNo description.",
+				"cost" : 15,
 				"battleEffects" : {
-					"vampirismEffect" :
-					{
-						"type": "core:timed",
-						"cumulative": false,
-						"bonus":
-						{
-							"lifeDrain":
-							{
-								"type": "NONE",
-//								"type": "SYNERGY_TARGET", bonus SYNERGY_TARGET was removed in 1.7, but it seems it did nothing, so was replaced with NONE
-								"duration": "N_TURNS",
-								"turns": 4
+					"vampirismEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeDrain" : {
+								"type" : "NONE",
+								//								"type": "SYNERGY_TARGET", bonus SYNERGY_TARGET was removed in 1.7, but it seems it did nothing, so was replaced with NONE
+								"duration" : "N_TURNS",
+								"turns" : 4
 							}
 						}
 					}
 				}
 			},
-			"none":
-			{
+			"none" : {
 				"cost" : 20
 			},
-			"basic":
-			{
-				"description": "{Garland}\r\n\r\nNo description.",
-	 
-				"cost": 18
+			"basic" : {
+				"description" : "{Garland}\r\n\r\nNo description.",
+
+				"cost" : 18
 			},
-			"advanced":
-			{
-				"description": "{Garland}\r\n\r\nNo description.",
-	 
-				"cost": 18
+			"advanced" : {
+				"description" : "{Garland}\r\n\r\nNo description.",
+
+				"cost" : 18
 			},
-			"expert":
-			{
-				"description": "{Garland}\r\n\r\nNo description.",
-	 
-				"cost": 18	
+			"expert" : {
+				"description" : "{Garland}\r\n\r\nNo description.",
+
+				"cost" : 18
 			}
 		}
 	}

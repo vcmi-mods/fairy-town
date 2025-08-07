@@ -1,36 +1,30 @@
 {
-	"ftP_Arina" :
-	{
+	"ftP_Arina" : {
 		"class" : "keeper",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Arina",
 			"biography" : "Arina is said to be so kind and friendly that their isn't a general in the land who doesn't owe her a favor for a past kindness. As such many would allow her safe passage far easier than others in battle.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Surrender cost is reduced by 40%",
 				"tooltip" : "{Loyalty}\r\n\r\nCost of Surrender -40%",
 				"name" : "Diplomacy"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft16_arina/diplomacy-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft16_arina/diplomacy-spec-large.png",
 			"small" : "fairy/heroes/ft16_arina/hps300.png",
 			"large" : "fairy/heroes/ft16_arina/hpl300.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"counterstrike"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,9 +52,9 @@
 				"skill" : "diplomacy"
 			}
 		],
-		
+
 		"specialty" : {
-			"bonuses": {
+			"bonuses" : {
 				"discount" : {
 					"type" : "SURRENDER_DISCOUNT",
 					"val" : 40,
@@ -71,5 +64,3 @@
 		}
 	}
 }
-
-

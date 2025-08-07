@@ -1,77 +1,61 @@
-{	
-	"ftFae1" :
-	{
+{
+	"ftFae1" : {
 		"description" : "{green|Fae}\n\n\n\n{gold|Special Ability : Flying.}\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain). Flying creatures are always immune to Quicksand."
 	},
-	
-	"ftFae2" :
-	{
+
+	"ftFae2" : {
 		"description" : "{green|Faerie}\n\n\n\n{gold|Special Ability : Flying. Can cast Slow and Magic Garland spells after attack.}\n\nFearies have 20% chance to cast Slow spell and 25% chance to cast Magic Garland after they attack. Magic Garland is kind of magic touch (lasts 4 rounds). Creatures touched by Magic Garland are vulnerable for Sibyl's Rose Bolt spell. Only siege machines can resist garland.\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain). Flying creatures are always immune to Quicksand."
 	},
-	
-	"ftClauricorn1" :
-	{
+
+	"ftClauricorn1" : {
 		"description" : "{green|Clauricorn}\n\n\n\n{gold|Special Ability : None.}"
 	},
-	
-	"ftClauricorn2" :
-	{
+
+	"ftClauricorn2" : {
 		"description" : "{green|Leprechaun}\n\n\n\n{gold|Special Ability : Spellcaster (Fortune). Unbelievable Luck. }\n\nLeprechaun can cast Fortune three times per battle at the advanced level. Spell lasts for 6 rounds. Every Luck increasing modificators (spells, artifacts etc.) have double effect at Leprechauns."
 	},
-	
-	"ftMoonDeer1" :
-	{
-		"description" : "{green|Moon Deer}\n\n\n\n{gold|Special Ability : Immune to Slow spell}\n\nSpell immunity is creature special ability which makes them unable to be target of the specific spell or a range of spells. The immunity also regards creature abilities which cause the same effect as the specific spell or spells (for example, Troglodytes are immune to the Blind spell as well as Unicorns' blinding special ability), even if technically this ability doesn't mean respective spell (for example, Gold and Black Dragons are immune to the Resurrection spell as well as Archangels' resurrecting special ability).\n\nThe Orb of Vulnerability can bypass some spell immunities."
-	},	
 
-	"ftMoonDeer2" :
-	{
+	"ftMoonDeer1" : {
+		"description" : "{green|Moon Deer}\n\n\n\n{gold|Special Ability : Immune to Slow spell}\n\nSpell immunity is creature special ability which makes them unable to be target of the specific spell or a range of spells. The immunity also regards creature abilities which cause the same effect as the specific spell or spells (for example, Troglodytes are immune to the Blind spell as well as Unicorns' blinding special ability), even if technically this ability doesn't mean respective spell (for example, Gold and Black Dragons are immune to the Resurrection spell as well as Archangels' resurrecting special ability).\n\nThe Orb of Vulnerability can bypass some spell immunities."
+	},
+
+	"ftMoonDeer2" : {
 		"description" : "{green|Sun Deer}\n\n\n\n{gold|Special Ability : Immune to Slow spell. Can cast Solar Power spell after attack.}\n\nSun Deers have 20% chance to cast Solar Power spell after they attack. 2-hexed Solar Power spell increases permanently Sun Deers attack and defense by 10%.\n\nSpell immunity is creature special ability which makes them unable to be target of the specific spell or a range of spells. The immunity also regards creature abilities which cause the same effect as the specific spell or spells (for example, Troglodytes are immune to the Blind spell as well as Unicorns' blinding special ability), even if technically this ability doesn't mean respective spell (for example, Gold and Black Dragons are immune to the Resurrection spell as well as Archangels' resurrecting special ability).\n\nThe Orb of Vulnerability can bypass some spell immunities."
-	},	
-	
-	"ftSylph1" :
-	{
+	},
+
+	"ftSylph1" : {
 		"description" : "{green|Sylph}\n\n\n\n{gold|Special Ability : Flying. Enchanted by permanent Air Shield.}\n\nSylphs have a natural Air Shield at Advanced level (which reflects with reducing the amount of damage receive from enemy's ranged attacks.)\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain). Flying creatures are always immune to Quicksand."
 	},
-	
-	"ftSylph2" :
-	{
+
+	"ftSylph2" : {
 		"description" : "{green|Sylph Mistress}\n\n\n\n{gold|Special Ability : Flying. Enchanted by permanent Air Shield. No enemy retaliation.}\n\nSylphs have a natural Air Shield at Advanced level (which reflects with reducing the amount of damage receive from enemy's ranged attacks.)\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain). Flying creatures are always immune to Quicksand.\n\nSome creatures have special ability typically phrased as \"no enemy retaliation\", which does not allow the stack(s) they attack to retaliate against them. This also means, that the attacked stack will not lose one of their retaliations for that combat round if attacked by a creature stack with no enemy retaliation. Thus, while attack with no retaliation is a very strong ability, sometimes it's a double-edged sword as creatures with no enemy retaliation cannot be used to prevent an enemy creature from retaliating that round."
 	},
-	
-	"ftSibyl1" :
-	{
+
+	"ftSibyl1" : {
 		"description" : "{green|Sibyl}\n\n\n\n{gold|Special Ability : Ranged attack, No range penalty, No obstacle penalty. Attacks with Rose Bolt.}\n\nSibyls ranged attack is called Rose Bolt. Units that are affected with Fearies, Noble Sprites and Sprite Queens' Magic Garland spell suffer more damage from sibils' magical bolts (additional damage is increased with hero spellpower).\n\nRanged attack is a special ability of creatures, which allows them to attack without engaging into hand-to-hand combat. Visually, typical ranged creature are armed with bows or crossbows (e.g. Elves or Archers), but there are also several creatures that use some kind of magic or elements (lightning, etc.), like Monks or Titans. However, this is only a visual effect and has no effect on the gameplay. When attacking in melee, most ranged creatures suffer melee penalty, which halves their damage. Some creatures have only melee attacks in basic variant but have ranged attack in upgraded version. Ranged penalty halves the ranged damage farther away than 10 hexes.\n\nObstacle penalty is a term for reduction of damage for ranged attacks. It occurs only during sieges when the target is behind walls. The attack suffering from the obstacle penalty only does half the damage compared to an attack made against a target being in front of the wall. The obstacle penalty is cumulative with the range penalty.\n\nRange penalty is a reduction of damage for ranged attacks. It occurs when the target is further than 10 hexes from the shooter. An attack suffering from range penalty only does half the damage compared to attack made within the 10 hex radius. Range penalty is cumulative with the obstacle penalty."
 	},
 
-	"ftSibyl2" :
-	{
+	"ftSibyl2" : {
 		"description" : "{green|Enchantress}\n\n\n\n{gold|Special Ability : Ranged attack, No range penalty, No obstacle penalty. Spellcaster. Attacks with Rose Bolt.}\n\nEnchantresses automatically cast following spells (but only 5 times per battle): Bless, Stone Skin, Shield. The spells are cast at the expert level every three rounds, lasting for three rounds. Despite the fact most of their spells are lvl 1, Enchantresses cannot cast on Cursed Ground magical terrain.\n\nSibyls ranged attack is called Rose Bolt. Units that are affected with Fearies, Noble Sprites and Sprite Queens' Magic Garland spell suffer more damage from sibils' magical bolts (additional damage is increased with hero spellpower).\n\nRanged attack is a special ability of creatures, which allows them to attack without engaging into hand-to-hand combat. Visually, typical ranged creature are armed with bows or crossbows (e.g. Elves or Archers), but there are also several creatures that use some kind of magic or elements (lightning, etc.), like Monks or Titans. However, this is only a visual effect and has no effect on the gameplay. When attacking in melee, most ranged creatures suffer melee penalty, which halves their damage. Some creatures have only melee attacks in basic variant but have ranged attack in upgraded version. Ranged penalty halves the ranged damage farther away than 10 hexes.\n\nObstacle penalty is a term for reduction of damage for ranged attacks. It occurs only during sieges when the target is behind walls. The attack suffering from the obstacle penalty only does half the damage compared to an attack made against a target being in front of the wall. The obstacle penalty is cumulative with the range penalty.\n\nRange penalty is a reduction of damage for ranged attacks. It occurs when the target is further than 10 hexes from the shooter. An attack suffering from range penalty only does half the damage compared to attack made within the 10 hex radius. Range penalty is cumulative with the obstacle penalty."
 	},
-	
-	"ftNobleSprite1" :
-	{
+
+	"ftNobleSprite1" : {
 		"description" : "{green|Noble Sprite}\n\n\n\n{gold|Special Ability : Can cast Counterstrike. Can cast Pacifism and Magic Garland spells after attack.}\n\nNoble Sprites have opportunity to cast basic Counterstrike spell on friendly units for two turns. Additionally they have 50% chance to cast Magic Garland spell and 10% chance to cast Pacifism spell after they attack.\n\nPacifism is a mind spell that takes away from enemy units some battle skills (no retaliations, no additional attacks, no shoots, unit is willing to attack nearest creature). As any other minds spells - undead, non-living units and siege machines are immune to Pacifism. This spell can be countered by Hipnotize and Berserk.\n\nMagic Garland is kind of magic touch (lasts 4 rounds). Creatures touched by Magic Garland are vulnerable for Rose Bolt spell. Only siege machines can resist garland.\n\nCounterstrike enables allied troops to retaliate extra times. The additional counterstrikes remain available until the end of the round, even if the spell is dispelled."
 	},
-	
-	"ftNobleSprite2" :
-	{
+
+	"ftNobleSprite2" : {
 		"description" : "{green|Sprite Queen}\n\n\n\n{gold|Special Ability : Can cast Counterstrike. Can cast Pacifism and Magic Garland spells after attack. Aura of magic resistance.}\n\nSprite Queens have opportunity to cast advanced Counterstrike spell on friendly units for two turns. Additionally they have 100% chance to cast Magic Garland spell and 20% chance to cast Pacifism spell after they attack.\n\nPacifism is a mind spell that takes away from enemy units some battle skills (no retaliations, no additional attacks, no shoots, unit is willing to attack nearest creature). As any other minds spells - undead, non-living units and siege machines are immune to Pacifism. This spell can be countered by Hipnotize and Berserk.\n\nMagic Garland is kind of magic touch (lasts 4 rounds). Creatures touched by Magic Garland are vulnerable for Sybil's Rose Bolt spell. Only siege machines can resist garland.\n\nCounterstrike enables allied troops to retaliate extra times. The additional counterstrikes remain available until the end of the round, even if the spell is dispelled.\n\nSprite queens project a magic resistant aura which gives adjacent units a 20% chance to ignore the effects of hostile spells. This aura of resistance also applies to the creature itself."
 	},
-	
-	"ftIris1" :
-	{
+
+	"ftIris1" : {
 		"description" : "{green|Iris}\n\n\n\n{gold|Special Ability : Flying. Always positive Morale and Luck.}\n\nIrises's positive morale ability can be affected only with Cursed Ground magical terrain or Spirit of Oppression artifact, since both interact with morale roll itself, rather than with morale level of the creature. Their morale cannot be decreased below +1 by the Sorrow spell, Holy Ground magical terrain effect, the morale forfeit for units from different towns or undead in the army, Bone and Ghost Dragon ability and any morale decreasing map objects effects.\n\nThe positive luck ability of irises can be affected by Hourglass of the Evil Hour or Cursed Ground magical terrain only. Their luck cannot be decreased below +1 by any other luck modifier. Irises are unable to get luck unless being commanded by a hero, like all the other neutral creatures, despite the game saying that they have +1 luck.\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain). Flying creatures are always immune to Quicksand.\n\nIrises are vulnerable for advanced Slayer."
 	},
 
-	"ftIris2" :
-	{
+	"ftIris2" : {
 		"description" : "{green|Aurora}\n\n\n\n{gold|Special Ability : Flying. Always positive Morale and Luck. Spellcaster.}\n\nCan cast once per battle Sacred Cure spell. It's a weaker version of Archangel's Resurrection.\n\nAurora's positive morale ability can be affected only with Cursed Ground magical terrain or Spirit of Oppression artifact, since both interact with morale roll itself, rather than with morale level of the creature. Their morale cannot be decreased below +1 by the Sorrow spell, Holy Ground magical terrain effect, the morale forfeit for units from different towns or undead in the army, Bone and Ghost Dragon ability and any morale decreasing map objects effects.\n\nThe positive luck ability of auroras can be affected by Hourglass of the Evil Hour or Cursed Ground magical terrain only. Their luck cannot be decreased below +1 by any other luck modifier. Irises are unable to get luck unless being commanded by a hero, like all the other neutral creatures, despite the game saying that they have +1 luck.\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain). Flying creatures are always immune to Quicksand.\n\nAuroras are vulnerable for advanced Slayer."
 	},
-	
-	"ftCommander" :
-	{
-		"description" : "{Fairy Commander}\n\n\n\nFairy Commander\n\n\n\n{gold|Special Ability : Can cast Counterstrike spell at basic Level. Flying. Mind immunity.}"
 
+	"ftCommander" : {
+		"description" : "{Fairy Commander}\n\n\n\nFairy Commander\n\n\n\n{gold|Special Ability : Can cast Counterstrike spell at basic Level. Flying. Mind immunity.}"
 	}
 }

@@ -1,106 +1,132 @@
 {
-	"ftStoneAegis":
-	{
-		"name" :
-		{
+	"ftStoneAegis" : {
+		"name" : {
 			"plural" : "Stone Aegises",
 			"singular" : "Stone Aegis"
 		},
 		"faction" : "fairy",
-		"level": 0,
+		"level" : 0,
 		"aiValue" : 2500,
 		"special" : true,
 		"attack" : 10,
-             "cost": 
-            {
-              "gold": 2500
-            },
-		"damage" : 
-		{
+		"cost" : {
+			"gold" : 2500
+		},
+		"damage" : {
 			"min" : 0,
 			"max" : 0
 		},
 		"defense" : 10,
 		"fightValue" : 2500,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairy/battle/creatures/spinner.def",
 			"iconSmall" : "fairy/iconsSmall/creatures/spinner.bmp",
 			"iconLarge" : "fairy/iconsBig/creatures/spinner.png",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.15,
 				"attack" : 1,
 				"idle" : 40
 			}
 		},
-		"sound" :
-		{
-			"killed": "FAIDKILL.wav",
-			"wince": "FAIDWNCE.wav"
-		},		
+		"sound" : {
+			"killed" : "FAIDKILL.wav",
+			"wince" : "FAIDWNCE.wav"
+		},
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 150,
 		"speed" : 0,
-		"abilities" :
-		{
-			"spellResistAura" :
-			{
+		"abilities" : {
+			"spellResistAura" : {
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 10
 			},
-		      "noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "NO_RETALIATION",
-				 "val" : 0,
+				"val" : 0
 			},
-			"warmachine" :
-			{
+			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
 			},
-             "Healer":
-			{
+			"Healer" : {
 				"type" : "HEALER",
 				"subtype" : "firstAid"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}
 }
-

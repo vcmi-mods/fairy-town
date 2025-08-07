@@ -1,31 +1,26 @@
 {
-	"ftH_Uliri" :
-	{
+	"ftH_Uliri" : {
 		"class" : "diviner",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Uliri",
 			"biography" : "Uliri is said to be one of the toughest generals in the Fairy kingdom. He constantly subjects his troops to the harshest training, toughening them up to be able to take greater and greater amounts of punishment",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
 				"tooltip" : "Receives a 5% per level bonus to Armorer skill percentage.",
 				"name" : "Armorer"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft8_uliri/armorer-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft8_uliri/armorer-spec-large.png",
 			"large" : "fairy/heroes/ft8_uliri/uliri-large.png",
 			"small" : "fairy/heroes/ft8_uliri/uliri-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -43,14 +38,13 @@
 			}
 		],
 
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "armorer"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "armorer"
 		}

@@ -3,98 +3,168 @@
 		"types" : {
 			"ftFairyCabin" : {
 				"name" : "Arcane Blossom",
-				"creatures" : [[ "ftFae1" ]],
-				"sounds": {
-					"ambient": ["LOOPFAER"]
+				"creatures" : [
+					[
+						"ftFae1"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPFAER"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-1.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftArcane" : {
 				"name" : "Alehouse",
-				"creatures" : [[ "ftClauricorn1" ]],
-				"sounds": {
-					"ambient": ["LOOPGREM"]
+				"creatures" : [
+					[
+						"ftClauricorn1"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPGREM"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"ftRiverLodge" : {
 				"name" : "Riverbed Lodge",
-				"creatures" : [[ "ftMoonDeer1" ]],
-				"sounds": {
-					"ambient": ["LOOPFAER"]
+				"creatures" : [
+					[
+						"ftMoonDeer1"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPFAER"
+					]
 				},
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftPortal" : {
 				"name" : "Breeze Valley",
-				"creatures" : [[ "ftSylph1" ]],
-				"sounds": {
-					"ambient": ["LOOPAIR"]
+				"creatures" : [
+					[
+						"ftSylph1"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPAIR"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-4.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftDragonHatchery" : {
 				"name" : "Harp Stage",
-				"creatures" : [[ "ftSibyl1" ]],
-				"sounds": {
-					"ambient": ["fairy/LOOP01"]
+				"creatures" : [
+					[
+						"ftSibyl1"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"fairy/LOOP01"
+					]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-5.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftDragonNest" : {
 				"name" : "Rainbow Fort",
-				"creatures" : [[ "ftNobleSprite1" ]],
+				"creatures" : [
+					[
+						"ftNobleSprite1"
+					]
+				],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["dwellings/faidwl6.wav"]
+				"sounds" : {
+					"ambient" : [
+						"dwellings/faidwl6.wav"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-6.def",
-						"mask" : [ "VVV", "VBV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftDragonRoost" : {
 				"name" : "Garden of Light",
-				"creatures" : [[ "ftIris1" ]],
+				"creatures" : [
+					[
+						"ftIris1"
+					]
+				],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["LOOPFAER"]
+				"sounds" : {
+					"ambient" : [
+						"LOOPFAER"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-7.def",
-				"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

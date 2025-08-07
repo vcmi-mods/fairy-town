@@ -1,25 +1,28 @@
 {
 	"irisRevive" : {
-		"type": "ability",
-		"name": "Sacred Cure",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": true
+		"type" : "ability",
+		"name" : "Sacred Cure",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
 		},
-		"targetType": "CREATURE",
-		"level": 5,
-		"power": 1,
-		"defaultGainChance": 0, 
-		"gainChance": {},
-		"animation":{
-			"affect":[{ "defName" : "fairy/spells/frysp4.def", "transparency" : 0.5}]
+		"targetType" : "CREATURE",
+		"level" : 5,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "fairy/spells/frysp4.def",
+					"transparency" : 0.5
+				}
+			]
 		},
-		"flags" : 
-		{
-			"positive": true, 
+		"flags" : {
+			"positive" : true,
 			"rising" : true
 		},
 		"targetCondition" : {
@@ -29,56 +32,53 @@
 				"bonus.UNDEAD" : "normal"
 			}
 		},
-		"sounds": {
-			"cast": "RESURECT"
+		"sounds" : {
+			"cast" : "RESURECT"
 		},
-		"graphics":
-		{
-			"iconEffect": "fairy/spells/fryspell2.bmp"
+		"graphics" : {
+			"iconEffect" : "fairy/spells/fryspell2.bmp"
 		},
 		"levels" : {
-			"base":{
-				"targetModifier":{"smart":true},
-//				"aiValue": 20,
-				"cost": 0, 
-				"range":"0",
-				"description": "{Sacred Cure}\r\n\r\nYou cannot see this description.",
-				"power": 8,
-				"battleEffects":{
-					"heal":{
-						"type":"core:heal",
-						"healLevel":"resurrect",
-						"healPower":"permanent",
+			"base" : {
+				"targetModifier" : {
+					"smart" : true
+				},
+				//				"aiValue": 20,
+				"cost" : 0,
+				"range" : "0",
+				"description" : "{Sacred Cure}\r\n\r\nYou cannot see this description.",
+				"power" : 8,
+				"battleEffects" : {
+					"heal" : {
+						"type" : "core:heal",
+						"healLevel" : "resurrect",
+						"healPower" : "permanent",
 						"minFullUnits" : 1
 					},
-					"cure":{
-						"type":"core:dispel",
-						"indirect": true,
-						"optional":true,
-						"dispelNegative":true,
-						"dispelNeutral":false,
-						"dispelPositive":false
+					"cure" : {
+						"type" : "core:dispel",
+						"indirect" : true,
+						"optional" : true,
+						"dispelNegative" : true,
+						"dispelNeutral" : false,
+						"dispelPositive" : false
 					}
 				}
 			},
-			"none":
-			{
+			"none" : {
 				"cost" : 0
 			},
-			"basic":
-			{	 
-				"description": "{Sacred Cure}\r\n\r\nYou cannot see this description.",
-				"power": 10
+			"basic" : {
+				"description" : "{Sacred Cure}\r\n\r\nYou cannot see this description.",
+				"power" : 10
 			},
-			"advanced":
-			{	 
-				"description": "{Sacred Cure}\r\n\r\nYou cannot see this description.",
-				"power": 12
+			"advanced" : {
+				"description" : "{Sacred Cure}\r\n\r\nYou cannot see this description.",
+				"power" : 12
 			},
-			"expert":
-			{	 
-				"description": "{Sacred Cure}\r\n\r\nYou cannot see this description.",
-				"power": 14
+			"expert" : {
+				"description" : "{Sacred Cure}\r\n\r\nYou cannot see this description.",
+				"power" : 14
 			}
 		}
 	}

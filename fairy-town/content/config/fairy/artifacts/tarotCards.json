@@ -1,12 +1,14 @@
 {
 	"tarotCards01" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC01.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC01.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -16,13 +18,15 @@
 		}
 	},
 	"tarotCards02" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC02.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC02.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -32,13 +36,15 @@
 		}
 	},
 	"tarotCards03" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC03.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC03.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -48,13 +54,15 @@
 		}
 	},
 	"tarotCards04" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC04.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC04.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -64,13 +72,15 @@
 		}
 	},
 	"tarotCards05" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC05.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC05.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -80,13 +90,15 @@
 		}
 	},
 	"tarotCards06" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC06.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC06.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -96,13 +108,15 @@
 		}
 	},
 	"tarotCards07" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC07.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC07.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -112,13 +126,15 @@
 		}
 	},
 	"tarotCards08" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC08.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC08.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -128,13 +144,15 @@
 		}
 	},
 	"tarotCards09" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC09.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC09.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -144,13 +162,15 @@
 		}
 	},
 	"tarotCards10" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC10.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC10.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -160,13 +180,15 @@
 		}
 	},
 	"tarotCards11" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC11.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC11.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -176,13 +198,15 @@
 		}
 	},
 	"tarotCards12" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC12.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC12.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -192,13 +216,15 @@
 		}
 	},
 	"tarotCards13" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC13.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC13.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -208,13 +234,15 @@
 		}
 	},
 	"tarotCards14" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC14.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC14.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -224,13 +252,15 @@
 		}
 	},
 	"tarotCards15" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC15.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC15.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -240,13 +270,15 @@
 		}
 	},
 	"tarotCards16" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC16.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC16.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -256,13 +288,15 @@
 		}
 	},
 	"tarotCards17" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC17.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC17.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -272,13 +306,15 @@
 		}
 	},
 	"tarotCards18" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC18.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC18.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -288,13 +324,15 @@
 		}
 	},
 	"tarotCards19" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC19.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC19.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -304,13 +342,15 @@
 		}
 	},
 	"tarotCards20" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC20.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC20.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -320,13 +360,15 @@
 		}
 	},
 	"tarotCards21" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC21.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC21.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -336,13 +378,15 @@
 		}
 	},
 	"tarotCards22" : {
-		"type" : [ "CREATURE" ],
+		"type" : [
+			"CREATURE"
+		],
 		"class" : "SPECIAL",
-		"slot":	"MISC",
+		"slot" : "MISC",
 		"value" : 500,
 		"graphics" : {
-			"image": "fairy/map/artifacts/tarotC22.bmp",
-			"map": "fairy/map/artifacts/tarotMap.def",
+			"image" : "fairy/map/artifacts/tarotC22.bmp",
+			"map" : "fairy/map/artifacts/tarotMap.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		},
 		"text" : {
@@ -351,5 +395,4 @@
 			"name" : "{#21} The World"
 		}
 	}
-	
 }

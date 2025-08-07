@@ -1,36 +1,30 @@
 {
-	"ftM_Sarisa" :
-	{
+	"ftM_Sarisa" : {
 		"class" : "keeper",
 		"female" : true,
-	
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Sarisa",
 			"biography" : "Legend has it Sarisa was born during the worst blizzard the world had ever known. It is said that the gods blessed her during that storm, granting her the ability to blind her enemies the way the storm blinded all caught within it.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Blind with effect increased by 3% for every n hero levels, where n is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Blind",
 				"name" : "Blind"
 			}
 		},
-	
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft13_sarisa/blind-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft13_sarisa/blind-spec-large.png",
 			"small" : "fairy/heroes/ft13_sarisa/sarisa-small.png",
 			"large" : "fairy/heroes/ft13_sarisa/sarisa-large.png"
 		},
-		
-		"spellbook" :
-		[
-			"blind" 
+
+		"spellbook" : [
+			"blind"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,7 +52,7 @@
 				"skill" : "fireMagic"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"blind" : {
@@ -71,5 +64,3 @@
 		}
 	}
 }
-
-

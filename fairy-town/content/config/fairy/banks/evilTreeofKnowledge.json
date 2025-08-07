@@ -1,24 +1,34 @@
 {
-	"core:creatureBank" :
-	{
-		"types" :
-		{
-			"evilTreeofKnowledge" :
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"evilTreeofKnowledge" : {
 				"name" : "Evil Tree of Knowledge",
 				"aiValue" : 9000,
-				"templates" :
-				{
-					"highlands" :
-					{
+				"templates" : {
+					"highlands" : {
 						"animation" : "fairy/map/banks/AVXTREK2.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVV", "VVV", "VAV"],
-						"allowedTerrains":[ "grass","swamp","dirt","highlands" ]
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"grass",
+							"swamp",
+							"dirt",
+							"highlands"
+						]
 					}
 				},
-				"sounds": {
-					"visit" : ["GAZEBO"]
+				"sounds" : {
+					"visit" : [
+						"GAZEBO"
+					]
 				},
 				"rmg" : {
 					"value" : 5000,
@@ -33,15 +43,35 @@
 				"rewards" : [
 					{
 						"message" : "{Evil Tree of Knowledge}\r\n\r\nWith the evil spirit that was parasitic in the trunk destroyed, the tree regained its sanity. When you approached, the tree opened its eyes excitedly and said, Aha, explorer, please let me pass on the knowledge I have accumulated over the years to you.",
-						"appearChance" : { "min" : 0, "max" : 100 },
-						"guards": [
-							{ "amount": 15, "type" : "dendroidSoldier" },
-							{ "amount": 15, "type" : "dendroidSoldier","upgradeChance": 100 },
-							{ "amount": 15, "type" : "dendroidSoldier","upgradeChance": 100 },
-							{ "amount": 15, "type" : "dendroidSoldier" },
-							{ "amount": 15, "type" : "dendroidSoldier" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 15,
+								"type" : "dendroidSoldier"
+							},
+							{
+								"amount" : 15,
+								"type" : "dendroidSoldier",
+								"upgradeChance" : 100
+							},
+							{
+								"amount" : 15,
+								"type" : "dendroidSoldier",
+								"upgradeChance" : 100
+							},
+							{
+								"amount" : 15,
+								"type" : "dendroidSoldier"
+							},
+							{
+								"amount" : 15,
+								"type" : "dendroidSoldier"
+							}
 						],
-							"heroLevel" : 1
+						"heroLevel" : 1
 					}
 				]
 			}

@@ -1,31 +1,26 @@
 {
-	"ftG_Sinara" :
-	{
+	"ftG_Sinara" : {
 		"class" : "diviner",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Sinara",
 			"biography" : "Sinara is one of the finest weaponsmiths known. It is said she makes all the weapons for her warriors, and that those weapons make some of the deepest woounds ever seen.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "All creatures receive +1 minimum and maximum Damage.",
 				"tooltip" : "Creature Bonus: Enchanted Weapons",
 				"name" : "Enchanted Weapons"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft7_sinara/enchanted-weapons-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft7_sinara/enchanted-weapons-spec-large.png",
 			"small" : "fairy/heroes/ft7_sinara/sinara-small.png",
 			"large" : "fairy/heroes/ft7_sinara/sinara-large.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -43,20 +38,18 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "offence"
 			}
 		],
-		
+
 		"specialty" : {
-			"bonuses": {
-				"damageBoost" :
-				{
-					"type": "CREATURE_DAMAGE",
-					"subtype": "creatureDamageBoth",
+			"bonuses" : {
+				"damageBoost" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER"
 				}
@@ -64,4 +57,3 @@
 		}
 	}
 }
-

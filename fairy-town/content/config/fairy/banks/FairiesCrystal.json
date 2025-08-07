@@ -1,30 +1,40 @@
 {
 	"fairyCrstPool" : {
-		"handler":"configurable",
+		"handler" : "configurable",
 		"name" : "Crystal Garden",
 		"types" : {
 			"object" : {
 				"rmg" : {
-					"value"	: 750,
+					"value" : 750,
 					"rarity" : 80,
 					"zoneLimit" : 2
 				},
 				"sounds" : {
-					"visit" : ["Expernce"]
+					"visit" : [
+						"Expernce"
+					]
 				},
 				"rewards" : [
 					{
 						"message" : "{Crystal Garden}\r\n\r\nCrystals seem to grow right out of the water of this beautiful Crystal Garden. You collect 5 crystals right now and estimate that the Garden will yield another 500 gold or 5 crystals per week.",
-						"appearChance" : { "max" : 50 },
-						"resources" : { "crystal" : 5 }
+						"appearChance" : {
+							"max" : 50
+						},
+						"resources" : {
+							"crystal" : 5
+						}
 					},
 					{
 						"message" : "{Crystal Garden}\r\n\r\nCrystals seem to grow right out of the water of this beautiful Crystal Pool. You collect 500 gold right now and estimate that the Garden will yield another 500 gold or 5 crystals per week.",
-						"appearChance" : { "min" : 50 },
-						"resources" : { "gold" : 500 }
+						"appearChance" : {
+							"min" : 50
+						},
+						"resources" : {
+							"gold" : 500
+						}
 					}
 				],
-				"onVisitedMessage": "{Crystal Garden}\r\n\r\nThis lovely Crystal Garden will provide you with 500 gold or 5 crystals each week, but right now there is nothing to collect.",
+				"onVisitedMessage" : "{Crystal Garden}\r\n\r\nThis lovely Crystal Garden will provide you with 500 gold or 5 crystals each week, but right now there is nothing to collect.",
 				"resetParameters" : {
 					"period" : 7,
 					"visitors" : true,
@@ -33,13 +43,24 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"templates" : {
-					"base" : { "animation" : "fairy/map/banks/crystalGarden3.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
-					"mask" : [ "VV", "BA" ],
-					"allowedTerrains":[ "grass", "highlands"]
+					"base" : {
+						"animation" : "fairy/map/banks/crystalGarden3.def",
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VV",
+							"BA"
+						],
+						"allowedTerrains" : [
+							"grass",
+							"highlands"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

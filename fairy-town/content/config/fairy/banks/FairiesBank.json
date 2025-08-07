@@ -1,21 +1,27 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"ftFairiesBank" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"ftFairiesBank" : {
 				"name" : "Fairies Bank",
 				"aiValue" : 1000,
 				"templates" : {
-					"base" : { "animation" : "fairy/map/banks/Fairies Bank.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
-					"mask" : [ "VVV", "VVV", "VVA" ]
+					"base" : {
+						"animation" : "fairy/map/banks/Fairies Bank.def",
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVA"
+						]
 					}
 				},
 				"rmg" : {
-					"value"		: 2000,
-					"rarity"	: 100
+					"value" : 2000,
+					"rarity" : 100
 				},
 				"onGuardedMessage" : "{Fairies Bank}\r\n\r\nYou have found the garden of fairies, would you like to attack here?",
 				"onVisitedMessage" : "{Fairies Bank}\r\n\r\nNow the garden is overgrown with weeds and has not been cleaned for a long time.",
@@ -25,74 +31,143 @@
 				"rewards" : [
 					{
 						"message" : "You have found some resources after searching in the garden.",
-						"appearChance" : { "min" : 0, "max" : 30 },
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
 						"guards" : [
-							{ "amount": 20, "type" : "ftFae1" },
-							{ "amount": 20, "type" : "ftFae1" },
-							{ "amount": 20, "type" : "ftFae1", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "ftFae1" },
-							{ "amount": 20, "type" : "ftFae1" }
-						],
-						"resources": 
 							{
-							
-								"crystal" : 2,
-								"gems" : 2,
-								"gold" : 1000
+								"amount" : 20,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 20,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 20,
+								"type" : "ftFae1",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 20,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 20,
+								"type" : "ftFae1"
 							}
-					},
-					{
-						"message" : "You have found some resources after searching in the garden.",
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards" : [
-							{ "amount": 30, "type" : "ftFae1" },
-							{ "amount": 30, "type" : "ftFae1" },
-							{ "amount": 30, "type" : "ftFae1", "upgradeChance": 50 },
-							{ "amount": 30, "type" : "ftFae1" },
-							{ "amount": 30, "type" : "ftFae1" }
 						],
-						"resources" :
-						{
-							
-								"crystal" : 3,
-								"gems" : 3,
-								"gold" : 1000
-							}
-					},
-					{
-						"message" : "You have found some resources after searching in the garden.",
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards" : [
-							{ "amount": 40, "type" : "ftFae1" },
-							{ "amount": 40, "type" : "ftFae1" },
-							{ "amount": 40, "type" : "ftFae1", "upgradeChance": 50 },
-							{ "amount": 40, "type" : "ftFae1" },
-							{ "amount": 40, "type" : "ftFae1" }
-						],
-						"resources" :
-						{
-								"crystal" : 5,
-								"gems" : 5,
-								"gold" : 1000
+						"resources" : {
+							"crystal" : 2,
+							"gems" : 2,
+							"gold" : 1000
 						}
 					},
 					{
 						"message" : "You have found some resources after searching in the garden.",
-						"appearChance" : { "min" : 90, "max" : 100 },
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
 						"guards" : [
-							{ "amount": 60, "type" : "ftFae1" },
-							{ "amount": 60, "type" : "ftFae1" },
-							{ "amount": 60, "type" : "ftFae1", "upgradeChance": 50 },
-							{ "amount": 60, "type" : "ftFae1" },
-							{ "amount": 60, "type" : "ftFae1" }
-						],
-						"resources" :
-						{
-							
-								"crystal" : 6,
-								"gems" : 6,
-								"gold" : 2000
+							{
+								"amount" : 30,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 30,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 30,
+								"type" : "ftFae1",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 30,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 30,
+								"type" : "ftFae1"
 							}
+						],
+						"resources" : {
+							"crystal" : 3,
+							"gems" : 3,
+							"gold" : 1000
+						}
+					},
+					{
+						"message" : "You have found some resources after searching in the garden.",
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 40,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 40,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 40,
+								"type" : "ftFae1",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 40,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 40,
+								"type" : "ftFae1"
+							}
+						],
+						"resources" : {
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : 1000
+						}
+					},
+					{
+						"message" : "You have found some resources after searching in the garden.",
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 60,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 60,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 60,
+								"type" : "ftFae1",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 60,
+								"type" : "ftFae1"
+							},
+							{
+								"amount" : 60,
+								"type" : "ftFae1"
+							}
+						],
+						"resources" : {
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 2000
+						}
 					}
 				]
 			}

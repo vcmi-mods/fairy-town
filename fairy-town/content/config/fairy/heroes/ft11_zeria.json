@@ -1,36 +1,30 @@
 {
-	"ftK_Zeria" :
-	{
+	"ftK_Zeria" : {
 		"class" : "keeper",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Zeria",
 			"biography" : "Zeria was said to have been born in the center of a magic nexus. Whether this is true or rumor is widely speculated upon, but she definately packs a powerful punch with her spells.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"tooltip" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
 				"name" : "Sorcery"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft11_zeria/sorcery-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft11_zeria/sorcery-spec-large.png",
 			"large" : "fairy/heroes/ft11_zeria/zeria-large.png",
 			"small" : "fairy/heroes/ft11_zeria/zeria-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,7 +52,7 @@
 				"skill" : "sorcery"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "sorcery"
 		}

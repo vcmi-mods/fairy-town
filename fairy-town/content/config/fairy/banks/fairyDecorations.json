@@ -1,34 +1,64 @@
 {
 	"fairypillars" : {
 		"name" : "Flower Pillar",
-		"handler":"generic",
+		"handler" : "generic",
 		"types" : {
 			"fairypillars" : {
 				"templates" : {
 					"fairyPillar01" : {
 						"animation" : "fairy/map/banks/fairyDec01",
-						"mask" : ["VV","VV","VB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyPillar02" : {
 						"animation" : "fairy/map/banks/fairyDec02",
-						"mask" : ["VV","VV","VB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyPillar03" : {
 						"animation" : "fairy/map/banks/fairyDec03",
-						"mask" : ["VV","VV","VB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyPillar04" : {
 						"animation" : "fairy/map/banks/fairyDec04",
-						"mask" : ["VV","VV","VB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyPillar019" : {
 						"animation" : "fairy/map/banks/fairyDec19",
-						"mask" : ["VVVV","VVBV","VBBB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			}
@@ -36,96 +66,173 @@
 	},
 	"fairyWall" : {
 		"name" : "Flower Wall",
-		"handler":"generic",
+		"handler" : "generic",
 		"types" : {
 			"fairyWall" : {
 				"templates" : {
 					"fairyWall05" : {
 						"animation" : "fairy/map/banks/fairyDec05",
-						"mask" : ["BB","BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall06" : {
 						"animation" : "fairy/map/banks/fairyDec06",
-						"mask" : ["BB","BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall07" : {
 						"animation" : "fairy/map/banks/fairyDec07",
-						"mask" : ["BB","BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall08" : {
 						"animation" : "fairy/map/banks/fairyDec08",
-						"mask" : ["B","B"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"B",
+							"B"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall09" : {
 						"animation" : "fairy/map/banks/fairyDec09",
-						"mask" : ["B","B"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"B",
+							"B"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall10" : {
 						"animation" : "fairy/map/banks/fairyDec10",
-						"mask" : ["VV","VV"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall11" : {
 						"animation" : "fairy/map/banks/fairyDec11",
-						"mask" : ["BB","BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall12" : {
 						"animation" : "fairy/map/banks/fairyDec12",
-						"mask" : ["BB","BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall13" : {
 						"animation" : "fairy/map/banks/fairyDec13",
-						"mask" : ["BB","BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall14" : {
 						"animation" : "fairy/map/banks/fairyDec14",
-						"mask" : ["BB","BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall15" : {
 						"animation" : "fairy/map/banks/fairyDec15",
-						"mask" : ["BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall16" : {
 						"animation" : "fairy/map/banks/fairyDec16",
-						"mask" : ["BB","BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall17" : {
 						"animation" : "fairy/map/banks/fairyDec17",
-						"mask" : ["BB","BB"],
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"BB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall18" : {
 						"animation" : "fairy/map/banks/fairyDec18",
-						"mask" : ["VV","VV"],
-						"zIndex": 100,
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"zIndex" : 100,
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall20" : {
 						"animation" : "fairy/map/banks/fairyDec20",
-						"mask" : ["VV","VV"],
-						"zIndex": 100,
-						"allowedTerrains": ["highlands"]
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"zIndex" : 100,
+						"allowedTerrains" : [
+							"highlands"
+						]
 					},
 					"fairyWall21" : {
 						"animation" : "fairy/map/banks/fairyDec21",
-						"mask" : ["V","V"],
-						"allowedTerrains": ["highlands"]
-					},
+						"mask" : [
+							"V",
+							"V"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
+					}
 				}
 			}
 		}
 	}
-	
-	
 }

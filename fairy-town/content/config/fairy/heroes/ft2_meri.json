@@ -1,31 +1,26 @@
 {
-	"ftB_ftMeri" :
-	{
+	"ftB_ftMeri" : {
 		"class" : "diviner",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Meri",
 			"biography" : "Meri is one of the finest explorers ever to travel the realm, able to find the quickest paths with ease.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus too Logistics skill percentage.",
 				"tooltip" : "{Logistics}\r\n\r\nReceives a 5% per level bonus too Logistics skill percentage.",
 				"name" : "Logistics"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft2_meri/logistics-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft2_meri/logistics-spec-large.png",
 			"large" : "fairy/heroes/ft2_meri/meri-large.bmp",
 			"small" : "fairy/heroes/ft2_meri/meri-small.bmp"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -54,7 +48,7 @@
 				"skill" : "pathfinding"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "logistics"
 		}

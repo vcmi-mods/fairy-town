@@ -1,36 +1,44 @@
 {
-	"ftO_Elrisa" :
-	{
+	"ftO_Elrisa" : {
 		"class" : "keeper",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Elrisa",
 			"biography" : "Elrisa is a teacher of magic school during peacetime. It is said she has memorized every beginner spell ever cast.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "All 1st level spells in spellbook.",
 				"tooltip" : "{Scribe}\r\n\r\nAll 1st level spells in spellbook.",
 				"name" : "Scribe"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft15_elrisa/Un32Scri.png",
 			"specialtyLarge" : "fairy/heroes/ft15_elrisa/Un44Scri.png",
 			"large" : "fairy/heroes/ft15_elrisa/hpl293.png",
 			"small" : "fairy/heroes/ft15_elrisa/hps293.png"
 		},
-		
-		"spellbook" :
-		[
-			"viewEarth", "bloodlust", "cure", "curse", "dispel", "bless", "haste", "magicArrow", "protectFire", "protectWater", "shield", "slow", "summonBoat", "stoneSkin", "viewAir"		
+
+		"spellbook" : [
+			"viewEarth",
+			"bloodlust",
+			"cure",
+			"curse",
+			"dispel",
+			"bless",
+			"haste",
+			"magicArrow",
+			"protectFire",
+			"protectWater",
+			"shield",
+			"slow",
+			"summonBoat",
+			"stoneSkin",
+			"viewAir"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -47,8 +55,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,9 +65,6 @@
 				"skill" : "waterMagic"
 			}
 		],
-		"specialty" : {
-		}
+		"specialty" : {}
 	}
 }
-
-

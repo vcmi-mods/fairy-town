@@ -1,36 +1,30 @@
 {
-	"ftJ_Danielle" :
-	{
+	"ftJ_Danielle" : {
 		"class" : "keeper",
 		"female" : true,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Danielle",
 			"biography" : "Danielle is one of the wisest of all fair and fae folk native to her lands. She has a an insatiable thirst for knowledge and has perfected ancient techniques to access a pool of mana larger than most have the ability to obtain.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Intelligence",
 				"name" : "Intelligence"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft10_danielle/intelligence-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft10_danielle/intelligence-spec-large.png",
 			"small" : "fairy/heroes/ft10_danielle/danielle-small.png",
 			"large" : "fairy/heroes/ft10_danielle/danielle-large.png"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"slow"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -47,9 +41,8 @@
 				"min" : 3
 			}
 		],
-		
-		"skills" :
-		[
+
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,10 +52,9 @@
 				"skill" : "intelligence"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "intelligence"
 		}
 	}
 }
-

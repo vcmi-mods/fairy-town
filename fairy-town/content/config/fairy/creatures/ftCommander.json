@@ -1,15 +1,12 @@
 {
-	"ftCommander":
-	{
-		"name" :
-		{
+	"ftCommander" : {
+		"name" : {
 			"plural" : "Fairy Commanders",
 			"singular" : "Fairy Commander"
 		},
-		"advMapAmount" :
-		{
-			 "min" : 16,
-			 "max" : 25
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
 		},
 		"faction" : "fairy",
 		"aiValue" : 156,
@@ -17,36 +14,30 @@
 		"special" : true,
 		"doubleWide" : false,
 		"shots" : 24,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 12,
 			"min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairy/battle/creatures/fcommander.def",
-//			"map" : "fairy/map/creatures/mapfcommander.def",
+			//			"map" : "fairy/map/creatures/mapfcommander.def",
 			"iconSmall" : "fairy/iconsSmall/creatures/fcommander.bmp",
 			"iconLarge" : "fairy/iconsBig/creatures/fcommander.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.30,
+			"animationTime" : {
+				"walk" : 1.3,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -54,58 +45,63 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-		},	
+		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
+		"hasDoubleWeek" : false,
 		"hitPoints" : 40,
 		"level" : 0,
-		"sound" :
-		{
-			"attack": "PIXIATTK.wav",
-			"defend": "PIXIDFND.wav",
-			"killed": "PIXIKILL.wav",
-			"move": "PIXIMOVE.wav",
-			"wince": "PIXIWNCE.wav"
- 		},
+		"sound" : {
+			"attack" : "PIXIATTK.wav",
+			"defend" : "PIXIDFND.wav",
+			"killed" : "PIXIKILL.wav",
+			"move" : "PIXIMOVE.wav",
+			"wince" : "PIXIWNCE.wav"
+		},
 		"speed" : 4,
-		"abilities" :
-		{
-			"canFly" : 
-			{
-				"type" : "FLYING", "subtype" : "movementFlying"
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
 			},
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "fortune",
 				"val" : 1
-                  },
-                  "noMind":
-                  {
-                   "type": "MIND_IMMUNITY"
+			},
+			"noMind" : {
+				"type" : "MIND_IMMUNITY"
 			}
 		}
 	}

@@ -1,39 +1,32 @@
 {
-	"ftFae2":
-	{
-		"name" :
-		{
+	"ftFae2" : {
+		"name" : {
 			"plural" : "Faeries",
 			"singular" : "Faerie"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 30,
 			"min" : 20
 		},
 		"faction" : "fairy",
 		"aiValue" : 100,
 		"attack" : 3,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 40
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 1
 		},
 		"defense" : 2,
 		"fightValue" : 100,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairy/battle/creatures/CFar02.def",
 			"map" : "fairy/map/creatures/mapfairy2.def",
 			"iconSmall" : "fairy/iconsSmall/creatures/fay02.bmp",
 			"iconLarge" : "fairy/iconsBig/creatures/fairy02.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -42,111 +35,194 @@
 		"growth" : 20,
 		"hitPoints" : 4,
 		"horde" : 8,
-        "level" : 1,
-		"sound" :
-		{
-			"attack": "PIXIATTK.wav",
-			"defend": "PIXIDFND.wav",
-			"killed": "PIXIKILL.wav",
-			"move": "PIXIMOVE.wav",
-			"wince": "PIXIWNCE.wav"
-        },
+		"level" : 1,
+		"sound" : {
+			"attack" : "PIXIATTK.wav",
+			"defend" : "PIXIDFND.wav",
+			"killed" : "PIXIKILL.wav",
+			"move" : "PIXIMOVE.wav",
+			"wince" : "PIXIWNCE.wav"
+		},
 		"speed" : 9,
-		"abilities" :
-		{
-		"spellAfterAttack" :
-			{
-                "type":"SPELL_AFTER_ATTACK",
-                "subtype":"slow",
-				"addInfo":2,
-                "val":20
-		    },
-			"flowerRingAttack" :
-			{
-                "type":"SPELL_AFTER_ATTACK",
-                "subtype":"blossomEff",
-                "val":25
-		    },
-	    "canFly" : 
-			{
+		"abilities" : {
+			"spellAfterAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "slow",
+				"addInfo" : 2,
+				"val" : 20
+			},
+			"flowerRingAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "blossomEff",
+				"val" : 25
+			},
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			}
 		},
-		"stackExperience" :
-
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "skeleton"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "skeletonWarrior"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "any"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			}
-		]				
+		]
 	}
 }

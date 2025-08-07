@@ -1,90 +1,88 @@
 {
-	"keeper" :
-	{
+	"keeper" : {
 		"name" : "Priestess",
 		"commander" : "ftCommander",
-		"animation" :
-		{
-			"battle" : 
-			{
+		"animation" : {
+			"battle" : {
 				"female" : "fairy/battle/heroes/battleHeroMagic",
-				"male"   : "fairy/battle/heroes/battleHeroMagic"
+				"male" : "fairy/battle/heroes/battleHeroMagic"
 			}
 		},
 
-		"mapObject" : { "templates" : { "default" : { "animation" : "fairy/map/heroes/mapHeroMagic" } } },
-		
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "fairy/map/heroes/mapHeroMagic"
+				}
+			}
+		},
+
 		"faction" : "fairy",
-		
+
 		"affinity" : "magic",
 
-		"primarySkills" :
-		{
-			"attack"     : 0,
-			"defence"    : 1,
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 1,
 			"spellpower" : 2,
-			"knowledge"  : 2
+			"knowledge" : 2
 		},
-		"lowLevelChance" :
-		{
-			"attack"     : 15,
-			"defence"    : 15,
+		"lowLevelChance" : {
+			"attack" : 15,
+			"defence" : 15,
 			"spellpower" : 30,
-			"knowledge"  : 40
+			"knowledge" : 40
 		},
-		"highLevelChance" :
-		{
-			"attack"     : 20,
-			"defence"    : 20,
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
 			"spellpower" : 30,
-			"knowledge"  : 30
+			"knowledge" : 30
 		},
-		"secondarySkills" :
-		{
-			"pathfinding"  : 2,
-			"archery"      : 3,
-			"logistics"    : 3,
-			"scouting"     : 2,
-			"diplomacy"    : 2,
-			"navigation"   : 2,
-			"leadership"   : 1,
-			"wisdom"       : 8,
-			"mysticism"    : 8,
-			"luck"         : 8,
-			"ballistics"   : 8,
-			"eagleEye"     : 3,
-			"necromancy"   : 0,
-			"estates"      : 1,
-			"fireMagic"    : 3,
-			"airMagic"     : 6,
-			"waterMagic"   : 7,
-			"earthMagic"   : 3,
-			"scholar"      : 7,
-			"tactics"      : 1,
-			"artillery"    : 1,
-			"learning"     : 4,
-			"offence"      : 2,
-			"armorer"      : 4,
+		"secondarySkills" : {
+			"pathfinding" : 2,
+			"archery" : 3,
+			"logistics" : 3,
+			"scouting" : 2,
+			"diplomacy" : 2,
+			"navigation" : 2,
+			"leadership" : 1,
+			"wisdom" : 8,
+			"mysticism" : 8,
+			"luck" : 8,
+			"ballistics" : 8,
+			"eagleEye" : 3,
+			"necromancy" : 0,
+			"estates" : 1,
+			"fireMagic" : 3,
+			"airMagic" : 6,
+			"waterMagic" : 7,
+			"earthMagic" : 3,
+			"scholar" : 7,
+			"tactics" : 1,
+			"artillery" : 1,
+			"learning" : 4,
+			"offence" : 2,
+			"armorer" : 4,
 			"intelligence" : 7,
-			"sorcery"      : 8,
-			"resistance"   : 0,
-			"firstAid"     : 8
+			"sorcery" : 8,
+			"resistance" : 0,
+			"firstAid" : 8
 		},
-		
+
 		"defaultTavern" : 5,
-		
-		"tavern" :
-		{
-			"castle"     : 6,
-			"rampart"    : 6,
-			"tower"      : 6,
-			"inferno"    : 6,
+
+		"tavern" : {
+			"castle" : 6,
+			"rampart" : 6,
+			"tower" : 6,
+			"inferno" : 6,
 			"necropolis" : 6,
-			"dungeon"    : 6,
+			"dungeon" : 6,
 			"stronghold" : 6,
-			"fortress"   : 6,
-			"conflux"    : 6,
-			"fairy"      : 6
+			"fortress" : 6,
+			"conflux" : 6,
+			"fairy" : 6
 		}
 	}
 }

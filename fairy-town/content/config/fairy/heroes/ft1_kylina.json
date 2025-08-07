@@ -1,31 +1,26 @@
 {
-	"ftA_Kylina" :
-	{
+	"ftA_Kylina" : {
 		"class" : "diviner",
 		"female" : true,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Kylina",
 			"biography" : "Kylina enjoys living with sylphs in breeze valley. She also introduced clan of sylphs to all residents who live in her hometown. She also learned some unique languages to make conversations with sylphs.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of Sylphs or Sylph Mistresses or each level attained after 4th level.",
 				"tooltip" : "{Forest Dragons}\r\n\r\nIncreases the Attack and Defense skills of Forest Dragons or Swamp Dragons or each level attained after 4th level.",
 				"name" : "Sylphs"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft1_kylina/sylph-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft1_kylina/sylph-spec-large.png",
 			"large" : "fairy/heroes/ft1_kylina/kylina-large.bmp",
 			"small" : "fairy/heroes/ft1_kylina/kylina-small.bmp"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "leadership"
@@ -54,10 +48,9 @@
 				"skill" : "offence"
 			}
 		],
-		
-		"specialty":
-			{
-				"creature" : "ftSylph1"
-			} 
+
+		"specialty" : {
+			"creature" : "ftSylph1"
+		}
 	}
 }

@@ -1,13 +1,10 @@
 {
-	"ftNobleSprite1":
-	{
-		"name" :
-		{
+	"ftNobleSprite1" : {
+		"name" : {
 			"plural" : "Noble Sprites",
 			"singular" : "Noble Sprite"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 5
 		},
@@ -15,26 +12,22 @@
 		"aiValue" : 952,
 		"doubleWide" : true,
 		"attack" : 16,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 800
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 20,
 			"min" : 16
 		},
 		"defense" : 13,
 		"fightValue" : 906,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairy/battle/creatures/CFar11.def",
 			"map" : "fairy/map/creatures/mapfwyvern1.def",
 			"iconSmall" : "fairy/iconsSmall/creatures/fay11.bmp",
 			"iconLarge" : "fairy/iconsBig/creatures/fairy11.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -43,112 +36,170 @@
 		"growth" : 2,
 		"hitPoints" : 80,
 		"level" : 6,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ftNobleSprite2"
 		],
-		"sound" :
-		{
-			"attack": "FDFLSHOT.wav",
-			"defend": "fairy/SQUEWNCE.wav",
-			"killed": "fairy/SQUEKILL.wav",
-			"move": "WUNCMOVE.wav",
-			"wince": "fairy/SQUEWNCE.wav"
- 		},
+		"sound" : {
+			"attack" : "FDFLSHOT.wav",
+			"defend" : "fairy/SQUEWNCE.wav",
+			"killed" : "fairy/SQUEKILL.wav",
+			"move" : "WUNCMOVE.wav",
+			"wince" : "fairy/SQUEWNCE.wav"
+		},
 		"speed" : 6,
-		"abilities" :
-		{
-			
-		    "spellAfterAttack" :
-			{
-                "type":"SPELL_AFTER_ATTACK",
-                "subtype":"frPacifism",
-                "val":10
-		    },
-			"flowerRingAttack" :
-			{
-                "type":"SPELL_AFTER_ATTACK",
-                "subtype":"blossomEff",
-                "val":50
-		    },
-			"castsAmount" :
-			{
+		"abilities" : {
+			"spellAfterAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "frPacifism",
+				"val" : 10
+			},
+			"flowerRingAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "blossomEff",
+				"val" : 50
+			},
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 2
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "counterstrike",
 				"val" : 1
-            }
-	    },
-		"stackExperience" :
-
-		[
+			}
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}

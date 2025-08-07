@@ -1,39 +1,32 @@
 {
-	"ftFae1":
-	{
-		"name" :
-		{
+	"ftFae1" : {
+		"name" : {
 			"plural" : "Faes",
 			"singular" : "Fae"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 50,
 			"min" : 20
 		},
 		"faction" : "fairy",
 		"aiValue" : 90,
 		"attack" : 2,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 25
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 2,
 			"min" : 1
 		},
 		"defense" : 2,
 		"fightValue" : 90,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairy/battle/creatures/CFar01.def",
 			"map" : "fairy/map/creatures/mapfairy1.def",
 			"iconSmall" : "fairy/iconsSmall/creatures/fay01.bmp",
 			"iconLarge" : "fairy/iconsBig/creatures/fairy01.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -42,104 +35,188 @@
 		"growth" : 20,
 		"hitPoints" : 3,
 		"horde" : 8,
-        "level" : 1,
-		"upgrades":
-		[
+		"level" : 1,
+		"upgrades" : [
 			"ftFae2"
 		],
-		"sound" :
-		{
-			"attack": "PIXIATTK.wav",
-			"defend": "PIXIDFND.wav",
-			"killed": "PIXIKILL.wav",
-			"move": "PIXIMOVE.wav",
-			"wince": "PIXIWNCE.wav"
-        },
+		"sound" : {
+			"attack" : "PIXIATTK.wav",
+			"defend" : "PIXIDFND.wav",
+			"killed" : "PIXIKILL.wav",
+			"move" : "PIXIMOVE.wav",
+			"wince" : "PIXIWNCE.wav"
+		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			}
 		},
-		"stackExperience" :
-
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "skeleton"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "skeletonWarrior"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
-				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "any"	
+				"bonus" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "any"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			}
-		]				
+		]
 	}
 }

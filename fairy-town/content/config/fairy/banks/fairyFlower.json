@@ -1,11 +1,17 @@
 {
-	"core:flowers" :{
+	"core:flowers" : {
 		"types" : {
 			"object" : {
 				"templates" : {
-					"avlyuc40" : { "animation" : "fairy/map/banks/flowerFairy01.def", 
-						"mask" : [ "VVV","VBB" ], 
-						"allowedTerrains": [ "highlands" ]
+					"avlyuc40" : {
+						"animation" : "fairy/map/banks/flowerFairy01.def",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			}

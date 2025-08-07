@@ -1,96 +1,120 @@
 {
 	"divinationHut" : {
-		"handler":"configurable",
+		"handler" : "configurable",
 		"name" : "Divination Hut",
 		"types" : {
 			"object" : {
 				"rmg" : {
-					"value"	: 750,
+					"value" : 750,
 					"rarity" : 20,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"visit" : ["Expernce"]
+					"visit" : [
+						"Expernce"
+					]
 				},
 				"rewards" : [
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 0,
 							"max" : 5
 						},
 						"heroExperience" : 1000,
-						"artifacts": [ "tarotCards01" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Fool}. Now you have got 1000 experience! Good luck next time!"
+						"artifacts" : [
+							"tarotCards01"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Fool}. Now you have got 1000 experience! Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 5,
 							"max" : 10
 						},
-						"manaPoints": 20,
-						"artifacts": [ "tarotCards02" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Magician}. Now you have got 20 manaPoints! Good luck next time!"
+						"manaPoints" : 20,
+						"artifacts" : [
+							"tarotCards02"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Magician}. Now you have got 20 manaPoints! Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 10,
 							"max" : 15
 						},
-						"manaPoints": 10,
-						"artifacts": [ "tarotCards03" ],
-						"bonuses" : [
-						{
-							"type" : "MANA_REGENERATION",
-							"val" : 3,
-							"valueType" : "BASE_NUMBER",
-							"duration" : "ONE_WEEK"
-						}
+						"manaPoints" : 10,
+						"artifacts" : [
+							"tarotCards03"
 						],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The High Priestess}. Now you have got 10 manaPoints and restored extra 3 points in this week! Good luck next time!"
+						"bonuses" : [
+							{
+								"type" : "MANA_REGENERATION",
+								"val" : 3,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "ONE_WEEK"
+							}
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The High Priestess}. Now you have got 10 manaPoints and restored extra 3 points in this week! Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 15,
 							"max" : 20
 						},
-						"resources" : { "gold" : 1000, "gems" : 5 },
-						"artifacts": [ "tarotCards04" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Empress}. Now you have got some resources. Good luck next time!"
+						"resources" : {
+							"gold" : 1000,
+							"gems" : 5
+						},
+						"artifacts" : [
+							"tarotCards04"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Empress}. Now you have got some resources. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 20,
 							"max" : 25
 						},
-						"bonuses" : [ { "type" : "MORALE", "val" : 3, "duration" : "ONE_BATTLE" } ],
-						"artifacts": [ "tarotCards05" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Emperor}. Now you have got morale by 3. Good luck next time!"
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : 3,
+								"duration" : "ONE_BATTLE"
+							}
+						],
+						"artifacts" : [
+							"tarotCards05"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Emperor}. Now you have got morale by 3. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 25,
 							"max" : 30
 						},
-						"bonuses" : [ 
-							{ "type" : "MORALE", "val" : 2, "duration" : "ONE_BATTLE" },
-							{ "type" : "LUCK", "val" : 2, "duration" : "ONE_BATTLE"}  
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : 2,
+								"duration" : "ONE_BATTLE"
+							},
+							{
+								"type" : "LUCK",
+								"val" : 2,
+								"duration" : "ONE_BATTLE"
+							}
 						],
-						"artifacts": [ "tarotCards06" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Hierophant}. Now you have got morale and luck by 2. Good luck next time!"
+						"artifacts" : [
+							"tarotCards06"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Hierophant}. Now you have got morale and luck by 2. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 30,
 							"max" : 35
 						},
-						"bonuses" : [ 
+						"bonuses" : [
 							{
 								"type" : "WANDERING_CREATURES_JOIN_BONUS",
 								"val" : 1,
@@ -98,131 +122,200 @@
 								"duration" : "ONE_WEEK"
 							}
 						],
-						"artifacts": [ "tarotCards07" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Lovers}. The hostility of wandering creatures has been reduced by 1. Good luck next time!"
+						"artifacts" : [
+							"tarotCards07"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Lovers}. The hostility of wandering creatures has been reduced by 1. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 35,
 							"max" : 40
 						},
 						"movePoints" : 400,
-						"artifacts": [ "tarotCards08" ],
-						"bonuses" : [ { "type" : "MOVEMENT", "subtype" : "heroMovementLand",  "val" : 400, "valueType" : "ADDITIVE_VALUE", "duration" : "ONE_WEEK"} ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Chariot}. You have got 400 movement this week. Good luck next time!"
+						"artifacts" : [
+							"tarotCards08"
+						],
+						"bonuses" : [
+							{
+								"type" : "MOVEMENT",
+								"subtype" : "heroMovementLand",
+								"val" : 400,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "ONE_WEEK"
+							}
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Chariot}. You have got 400 movement this week. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 40,
 							"max" : 45
 						},
-						"primary" : { "spellpower" : 1 },
-						"artifacts": [ "tarotCards09" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Strength}. You have got one spellpower. Good luck next time!"
+						"primary" : {
+							"spellpower" : 1
+						},
+						"artifacts" : [
+							"tarotCards09"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Strength}. You have got one spellpower. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 45,
 							"max" : 50
 						},
-						"primary" : { "knowledge" : 1 },
-						"artifacts": [ "tarotCards10" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Hermit}. You have got one knowledge. Good luck next time!"
+						"primary" : {
+							"knowledge" : 1
+						},
+						"artifacts" : [
+							"tarotCards10"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Hermit}. You have got one knowledge. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 50,
 							"max" : 55
 						},
-						"artifacts": [ "tarotCards11" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Wheel of Fortune}. You have got nothing. Good luck next time!"
+						"artifacts" : [
+							"tarotCards11"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Wheel of Fortune}. You have got nothing. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 55,
 							"max" : 60
 						},
-						"primary" : { "attack" : 1,"defence" : 1},
-						"artifacts": [ "tarotCards12" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Justice}. You have got one attack and defence respectively. Good luck next time!"
+						"primary" : {
+							"attack" : 1,
+							"defence" : 1
+						},
+						"artifacts" : [
+							"tarotCards12"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Justice}. You have got one attack and defence respectively. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 60,
 							"max" : 65
 						},
-						"bonuses" : [ { "type" : "MORALE", "val" : -2, "duration" : "ONE_BATTLE"} ],
-						"artifacts": [ "tarotCards13" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Hanged Man}. Your morale is reduced by 2. Good luck next time!"
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : -2,
+								"duration" : "ONE_BATTLE"
+							}
+						],
+						"artifacts" : [
+							"tarotCards13"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Hanged Man}. Your morale is reduced by 2. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 65,
 							"max" : 70
 						},
-						"bonuses" : [ 
-							{ "type" : "MORALE", "val" : -3, "duration" : "ONE_BATTLE"},
-							{ "type" : "LUCK", "val" : -3, "duration" : "ONE_BATTLE"}
-							],
-						"artifacts": [ "tarotCards14" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Death}. Your morale and luck are reduced by 3. Good luck next time!"
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : -3,
+								"duration" : "ONE_BATTLE"
+							},
+							{
+								"type" : "LUCK",
+								"val" : -3,
+								"duration" : "ONE_BATTLE"
+							}
+						],
+						"artifacts" : [
+							"tarotCards14"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Death}. Your morale and luck are reduced by 3. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 70,
 							"max" : 75
 						},
-						"resources" : { "gold" : -1000 },
-						"artifacts": [ "tarotCards15" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Temperance}. You have lost 1000 gold. Good luck next time!"
+						"resources" : {
+							"gold" : -1000
+						},
+						"artifacts" : [
+							"tarotCards15"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Temperance}. You have lost 1000 gold. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 75,
 							"max" : 80
 						},
-						"bonuses" : [ { "type" : "LUCK", "val" : -2, "duration" : "ONE_BATTLE"}],
-						"artifacts": [ "tarotCards16" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Devil}. Your luck is reduced by 2. Good luck next time!"
+						"bonuses" : [
+							{
+								"type" : "LUCK",
+								"val" : -2,
+								"duration" : "ONE_BATTLE"
+							}
+						],
+						"artifacts" : [
+							"tarotCards16"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Devil}. Your luck is reduced by 2. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 80,
 							"max" : 85
 						},
 						"movePercentage" : 0,
-						"bonuses" : [ { "type" : "LUCK", "val" : -1, "duration" : "ONE_BATTLE"}],
-						"artifacts": [ "tarotCards17" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Tower}. Your luck is reduced by 1, and you are trapped in the tower today and cannot move forward. Good luck next time!"
+						"bonuses" : [
+							{
+								"type" : "LUCK",
+								"val" : -1,
+								"duration" : "ONE_BATTLE"
+							}
+						],
+						"artifacts" : [
+							"tarotCards17"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Tower}. Your luck is reduced by 1, and you are trapped in the tower today and cannot move forward. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 85,
 							"max" : 90
 						},
-						"bonuses" : [ { "type" : "LUCK", "val" : 2, "duration" : "ONE_BATTLE" } ],
-						"artifacts": [ "tarotCards18" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Star}. Now you have got luck by 2. Good luck next time!"
+						"bonuses" : [
+							{
+								"type" : "LUCK",
+								"val" : 2,
+								"duration" : "ONE_BATTLE"
+							}
+						],
+						"artifacts" : [
+							"tarotCards18"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Star}. Now you have got luck by 2. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 85,
 							"max" : 90
 						},
-						"bonuses" : [ { "type" : "MORALE", "val" : -1, "duration" : "ONE_BATTLE" } ],
-						"artifacts": [ "tarotCards19" ],
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : -1,
+								"duration" : "ONE_BATTLE"
+							}
+						],
+						"artifacts" : [
+							"tarotCards19"
+						],
 						"revealTiles" : {
 							"radius" : 15,
 							"surface" : 1,
@@ -231,16 +324,23 @@
 							"rock" : 1,
 							"hide" : true
 						},
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Moon}. Your morale is reduced by 1, and you are surrounded by darkness. Good luck next time!"
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Moon}. Your morale is reduced by 1, and you are surrounded by darkness. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 90,
 							"max" : 95
 						},
-						"bonuses" : [ { "type" : "MORALE", "val" : 1, "duration" : "ONE_BATTLE" } ],
-						"artifacts": [ "tarotCards20" ],
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : 1,
+								"duration" : "ONE_BATTLE"
+							}
+						],
+						"artifacts" : [
+							"tarotCards20"
+						],
 						"revealTiles" : {
 							"radius" : 15,
 							"surface" : 1,
@@ -248,39 +348,57 @@
 							"water" : 1,
 							"rock" : 1
 						},
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Sun}. Now you have got morale by 1, and the darkness around you is illuminated. Good luck next time!"
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The Sun}. Now you have got morale by 1, and the darkness around you is illuminated. Good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 95,
 							"max" : 98
 						},
-						"bonuses" : [ 
-							{ "type" : "MORALE", "val" : -3, "duration" : "ONE_WEEK","description": "Judgement" },
-							{ "type" : "LUCK", "val" : -3, "duration" : "ONE_WEEK","description": "Judgement" }
-							],
-							"movePercentage" : 0,
-							"artifacts": [ "tarotCards21" ],
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Judgement}. Your morale and luck are reduced by 3 in this week, and you are trapped today and cannot move forward. Don't be sad, wish you good luck next time!"
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : -3,
+								"duration" : "ONE_WEEK",
+								"description" : "Judgement"
+							},
+							{
+								"type" : "LUCK",
+								"val" : -3,
+								"duration" : "ONE_WEEK",
+								"description" : "Judgement"
+							}
+						],
+						"movePercentage" : 0,
+						"artifacts" : [
+							"tarotCards21"
+						],
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {Judgement}. Your morale and luck are reduced by 3 in this week, and you are trapped today and cannot move forward. Don't be sad, wish you good luck next time!"
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 98,
 							"max" : 100
 						},
-						"bonuses" : [ { "type" : "MORALE", "val" : 3, "duration" : "ONE_BATTLE" } ],
-						"artifacts": [ "tarotCards22" ],
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : 3,
+								"duration" : "ONE_BATTLE"
+							}
+						],
+						"artifacts" : [
+							"tarotCards22"
+						],
 						"revealTiles" : {
 							"surface" : 1,
 							"water" : 1,
 							"rock" : -1
 						},
-						"message": "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The World}. Your morale is increased by 3, and you open the world map! Congratulations! Wish you good luck forever!"
-					},
+						"message" : "{Divination Hut}\r\n\r\nWhile entering the divination hut, the diviner takes out some cards and asks you to draw once, your card is {The World}. Your morale is increased by 3, and you open the world map! Congratulations! Wish you good luck forever!"
+					}
 				],
-				"onVisitedMessage": "{Divination Hut}\r\n\r\nYou have already finished the divination. Please come next week! Good luck to you! ",
+				"onVisitedMessage" : "{Divination Hut}\r\n\r\nYou have already finished the divination. Please come next week! Good luck to you! ",
 				"resetParameters" : {
 					"period" : 7,
 					"visitors" : true,
@@ -289,12 +407,21 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"templates" : {
-					"base" : { "animation" : "fairy/map/banks/divinationHut.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
-					"mask" : [ "VVV", "VVV", "VBA" ]
+					"base" : {
+						"animation" : "fairy/map/banks/divinationHut.def",
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

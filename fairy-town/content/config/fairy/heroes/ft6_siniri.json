@@ -1,31 +1,26 @@
 {
-	"ftF_Siniri" :
-	{
+	"ftF_Siniri" : {
 		"class" : "diviner",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Siniri",
 			"biography" : "Siniri is a bit of a celebrity in the world of Fairies. She and her entourage are known as the Royal Gold Fairy brigade.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the speed of Noble Sprites and Sprite Queens by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Noble Sprites",
 				"name" : "Noble Sprites"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft6_siniri/noble-sprite-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft6_siniri/noble-sprite-spec-large.png",
 			"small" : "fairy/heroes/ft6_siniri/siniri-small.png",
 			"large" : "fairy/heroes/ft6_siniri/siniri-large.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -54,9 +48,9 @@
 				"skill" : "logistics"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "ftNobleSprite1"
-		} 
+		}
 	}
 }

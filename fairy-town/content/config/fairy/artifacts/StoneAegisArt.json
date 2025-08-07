@@ -1,24 +1,21 @@
 {
-	"stoneAegis":
-        {
-	"type" : ["HERO"],
-	"warMachine":"ftStoneAegis",
-        "class": "SPECIAL",
-        "value": 1500,
-        "slot":"MACH3",
-        "text":
-		{
-			"name": "Stone Aegis",
-			"description": "{Stone Aegis}\r\n\r\nThe Snowy Stone Aegis provides healing to yor trops during eacha round of combat.",
-			"event": "The Stone Aegis provides healing to yor trops during eacha round of combat."
+	"stoneAegis" : {
+		"type" : [
+			"HERO"
+		],
+		"warMachine" : "ftStoneAegis",
+		"class" : "SPECIAL",
+		"value" : 1500,
+		"slot" : "MACH3",
+		"text" : {
+			"name" : "Stone Aegis",
+			"description" : "{Stone Aegis}\r\n\r\nThe Snowy Stone Aegis provides healing to yor trops during eacha round of combat.",
+			"event" : "The Stone Aegis provides healing to yor trops during eacha round of combat."
 		},
-		"graphics":
-		{
-			"image": "fairy/iconsSmall/creatures/artifacts/spinner.bmp",
-			"map"  :   "fairy/map/artifacts/avcnbksm.def",
+		"graphics" : {
+			"image" : "fairy/iconsSmall/creatures/artifacts/spinner.bmp",
+			"map" : "fairy/map/artifacts/avcnbksm.def",
 			"scenarioBonus" : "fairy/map/artifacts/blank.png"
 		}
 	}
 }
-
-

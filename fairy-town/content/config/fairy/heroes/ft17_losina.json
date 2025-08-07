@@ -1,36 +1,30 @@
 {
-	"ftQ_Losina" :
-	{
+	"ftQ_Losina" : {
 		"class" : "keeper",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Losina",
 			"biography" : "One of the finest field medics in the kingdom, Losina believes in caring for the health of her troops. She is said to have the best bedside manner in the all the land",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to First Aid skill.",
 				"tooltip" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill.",
 				"name" : "First Aid"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft17_losina/un32firs.png",
 			"specialtyLarge" : "fairy/heroes/ft17_losina/un44firs.png",
 			"large" : "fairy/heroes/ft17_losina/hpl295.png",
 			"small" : "fairy/heroes/ft17_losina/hps295.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"cure"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,7 +52,7 @@
 				"skill" : "firstAid"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "firstAid"
 		}

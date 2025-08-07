@@ -1,13 +1,10 @@
 {
-	"ftMoonDeer2":
-	{
-		"name" :
-		{
+	"ftMoonDeer2" : {
+		"name" : {
 			"plural" : "Sun Deers",
 			"singular" : "Sun Deer"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 20,
 			"min" : 12
 		},
@@ -15,124 +12,194 @@
 		"doubleWide" : true,
 		"aiValue" : 280,
 		"attack" : 9,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 240
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 7,
 			"min" : 4
 		},
 		"defense" : 6,
 		"fightValue" : 265,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairy/battle/creatures/CFar06.def",
 			"map" : "fairy/map/creatures/mapfnoble2.def",
 			"iconSmall" : "fairy/iconsSmall/creatures/fay06.bmp",
 			"iconLarge" : "fairy/iconsBig/creatures/fairy06.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.25,
 				"attack" : 1,
 				"idle" : 10
 			}
-	       },
+		},
 		"growth" : 7,
 		"hitPoints" : 20,
-		"horde": 3,
+		"horde" : 3,
 		"level" : 3,
-		"sound" :
-		{
-			"attack": "UNICATTK.wav",
+		"sound" : {
+			"attack" : "UNICATTK.wav",
 			"defend" : "UNICDFND.wav",
 			"killed" : "CGORKILL.wav",
 			"move" : "UNICMOVE.wav",
 			"wince" : "CGORWNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"slowImmunity" : 
-			{
+		"abilities" : {
+			"slowImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "slow",
 				"addInfo" : 1
 			},
-			"castSolarPower" :
-			{
+			"castSolarPower" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "frySolarPower",
 				"val" : 20
-			}	
+			}
 		},
-		"stackExperience" :
-
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "skeleton"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "skeletonWarrior"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "any"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			}
 		]
 	}

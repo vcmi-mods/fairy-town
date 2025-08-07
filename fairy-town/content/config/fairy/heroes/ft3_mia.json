@@ -1,31 +1,26 @@
 {
-	"ftC_ftMia" :
-	{
+	"ftC_ftMia" : {
 		"class" : "diviner",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Mia",
 			"biography" : "It is said that Mia was born with a love of all animals, but in her early years, she formed a strong bond to the local deer population. Now, she commands brave stags in combat, who rally to her when they are called.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Increases the speed of Moon Deer or Sun Deer by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Moon Deer",
 				"name" : "Moon Deer"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairy/heroes/ft3_mia/moon-deer-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft3_mia/moon-deer-spec-large.png",
 			"small" : "fairy/heroes/ft3_mia/mia-small.png",
 			"large" : "fairy/heroes/ft3_mia/mia-large.png"
 		},
-		
-		"army" :
-		[
+
+		"army" : [
 			{
 				"creature" : "ftMoonDeer1",
 				"max" : 5,
@@ -42,9 +37,8 @@
 				"min" : 3
 			}
 		],
-		
-		"skills" :
-		[
+
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -52,13 +46,11 @@
 			{
 				"level" : "basic",
 				"skill" : "estates"
-			}		
+			}
 		],
-			
+
 		"specialty" : {
 			"creature" : "ftMoonDeer1"
-		} 
+		}
 	}
 }
-
-

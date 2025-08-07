@@ -1,91 +1,74 @@
 {
 	"frySolarPower" : {
-		"type": "ability",
-		"name": "Solar Power",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+		"type" : "ability",
+		"name" : "Solar Power",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"targetType": "CREATURE",
+		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"anyOf" : {
-				"fairy-town:creature.ftMoonDeer2":"absolute"}
+				"fairy-town:creature.ftMoonDeer2" : "absolute"
+			}
 		},
-		"level": 1,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
+		"level" : 1,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				"fairy/spells/frysp1.def"
+			]
 		},
-		"animation":{
-			"affect":["fairy/spells/frysp1.def"]
+		"flags" : {
+			"positive" : true
 		},
-		"flags" : {"positive": true},
-		"sounds": {
-			"cast": "BLESS"
+		"sounds" : {
+			"cast" : "BLESS"
 		},
-		"graphics":
-		{
-			"iconEffect": "fairy/spells/fryspell1.bmp"
+		"graphics" : {
+			"iconEffect" : "fairy/spells/fryspell1.bmp"
 		},
 		"levels" : {
-			"base":{
-		
-				"range": "0-1",
-				"power": 10,
-				"cost": 0,
-//				"aiValue": 20,
-				"targetModifier":
-				{
-					"smart": true
+			"base" : {
+				"range" : "0-1",
+				"power" : 10,
+				"cost" : 0,
+				//				"aiValue": 20,
+				"targetModifier" : {
+					"smart" : true
 				},
-				"battleEffects":
-			{
-
-					"lifeEater" :
-				{
-					"type": "core:timed",
-					"cumulative": true,
-					"bonus":
-					{
-					"boostAttack":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
-					},
-					"boostDefense":
-                    {
-                        "type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_ALL",
-                        "duration": "PERMANENT"
+				"battleEffects" : {
+					"lifeEater" : {
+						"type" : "core:timed",
+						"cumulative" : true,
+						"bonus" : {
+							"boostAttack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : 10,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "PERMANENT"
+							},
+							"boostDefense" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : 10,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "PERMANENT"
+							}
+						}
 					}
-					}
-				}
+				},
+				"description" : " "
 			},
-				"description": " "
-			},
-			"none":
-			{
-			},
-			"basic":
-			{
-			},
-			"advanced":
-			{
-
-			},
-			"expert":
-			{
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }
-
