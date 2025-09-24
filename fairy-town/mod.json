@@ -3,8 +3,11 @@
 	"description" : "New town made by New Fairy Team, updated by Turbanellos in 2022.",
 	"author" : "Ben Yan, New Fairy Team, Kuririn, zeryss, Draeganfire, avatar",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.76",
+	"version" : "2.77",
 	"changelog" : {
+		"2.77" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"2.76" : [
 			"Update to vcmi-1.7 format"
 		],

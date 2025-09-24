@@ -22,7 +22,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "fairy/map/dwellings/flagports/fairydw01.def"
 			},
 			"ftArcane" : {
 				"name" : "Alehouse",
@@ -45,7 +46,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "fairy/map/dwellings/flagports/fairydw02.def"
 			},
 			"ftRiverLodge" : {
 				"name" : "Riverbed Lodge",
@@ -68,7 +70,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "fairy/map/dwellings/flagports/fairydw03.def"
 			},
 			"ftPortal" : {
 				"name" : "Breeze Valley",
@@ -91,7 +94,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "fairy/map/dwellings/flagports/fairydw04.def"
 			},
 			"ftDragonHatchery" : {
 				"name" : "Harp Stage",
@@ -115,7 +119,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "fairy/map/dwellings/flagports/fairydw05.def"
 			},
 			"ftDragonNest" : {
 				"name" : "Rainbow Fort",
@@ -139,7 +144,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "fairy/map/dwellings/flagports/fairydw06.def"
 			},
 			"ftDragonRoost" : {
 				"name" : "Garden of Light",
@@ -163,7 +169,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "fairy/map/dwellings/flagports/fairydw07.def"
 			}
 		}
 	}
