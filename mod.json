@@ -104,42 +104,42 @@
 		"name" : "花仙堡",
 		"description" : "花仙堡有着独特的爱尔兰童话艺术感，原型之一也来自于二代的女巫阵营。该种族来自元素异界的花仙国度，由于在之前没有来过恩塔格瑞，被认为是元素族的一个分支。目前花仙已经从元素独立，并且逐渐来到恩塔格瑞开始生活。",
 		"translations" : [
-			"translation/fairy/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"french" : {
 		"name" : "Fée",
 		"description" : "Ville créée par la New Fairy Team, mise à jour par Turbanellos en 2022.",
 		"translations" : [
-			"translation/fairy/french.json"
+			"translation/french.json"
 		]
 	},
 	"german" : {
 		"name" : "Feenwald",
 		"description" : "Feenwald Stadt",
 		"translations" : [
-			"translation/fairy/german.json"
+			"translation/german.json"
 		]
 	},
 	"russian" : {
 		"name" : "Город Фей",
 		"description" : "Новый город фей, созданный в стиле сказочного магического леса.",
 		"translations" : [
-			"translation/fairy/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"ukrainian" : {
 		"name" : "Місто Фей",
 		"description" : "Нове місто від New fairy Team та Turbanellos",
 		"translations" : [
-			"translation/fairy/ukrainian.json"
+			"translation/ukrainian.json"
 		]
 	},
 	"polish" : {
 		"name" : "Wróżkolandia",
 		"description" : "Miasto Wróżek autorstwa Ben Yana",
 		"translations" : [
-			"translation/fairy/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"factions" : [
