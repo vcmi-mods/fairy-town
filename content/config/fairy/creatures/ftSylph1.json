@@ -5,7 +5,10 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
 				"val" : 2,
-				"addInfo" : { "spell" : "core:airShield", "massive" : true }
+				"addInfo" : {
+					"spell" : "core:airShield",
+					"massive" : true
+				}
 			},
 			"canFly" : {
 				"type" : "FLYING",

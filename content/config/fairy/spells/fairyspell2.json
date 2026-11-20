@@ -66,36 +66,36 @@
 					"timed" : {
 						"type" : "core:timed",
 						"bonus" : {
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 2
-					},
-					"noAttacks" : {
-						"type" : "ADDITIONAL_ATTACK",
-						"val" : -5,
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 2
-					},
-					"noShooting" : {
-						"type" : "FORGETFULL",
-						"val" : 3,
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 2
-					},
-					"cowardice" : {
-						"type" : "ATTACKS_NEAREST_CREATURE",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 2
-					}
+							"noRetaliation" : {
+								"type" : "NO_RETALIATION",
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 2
+							},
+							"noAttacks" : {
+								"type" : "ADDITIONAL_ATTACK",
+								"val" : -5,
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 2
+							},
+							"noShooting" : {
+								"type" : "FORGETFULL",
+								"val" : 3,
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 2
+							},
+							"cowardice" : {
+								"type" : "ATTACKS_NEAREST_CREATURE",
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 2
+							}
 						}
 					}
 				}
