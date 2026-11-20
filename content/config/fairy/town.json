@@ -7,7 +7,7 @@
 			"130px" : "fairy/creature-bg-130px.bmp"
 		},
 		"name" : "Fairy",
-		"nativeTerrain" : "highlands", //need to link with HotA mod
+		"nativeTerrain" : [ "highlands" ], //need to link with HotA mod
 		"puzzleMap" : {
 			"prefix" : "fairy/puzzle-map/PUZ",
 			"pieces" : [

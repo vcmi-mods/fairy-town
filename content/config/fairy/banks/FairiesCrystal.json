@@ -36,7 +36,7 @@
 				],
 				"onVisitedMessage" : "{Crystal Garden}\r\n\r\nThis lovely Crystal Garden will provide you with 500 gold or 5 crystals each week, but right now there is nothing to collect.",
 				"resetParameters" : {
-					"period" : 7,
+					"days" : 7,
 					"visitors" : true,
 					"rewards" : true
 				},

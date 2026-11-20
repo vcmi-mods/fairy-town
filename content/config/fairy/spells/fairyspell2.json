@@ -62,7 +62,10 @@
 				},
 				"range" : "0",
 				"description" : "{Pacifism}\n\n.",
-				"effects" : {
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
 					"noRetaliation" : {
 						"type" : "NO_RETALIATION",
 						"duration" : [
@@ -92,6 +95,8 @@
 							"N_TURNS"
 						],
 						"turns" : 2
+					}
+						}
 					}
 				}
 			},

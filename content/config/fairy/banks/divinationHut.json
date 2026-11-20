@@ -400,7 +400,7 @@
 				],
 				"onVisitedMessage" : "{Divination Hut}\r\n\r\nYou have already finished the divination. Please come next week! Good luck to you! ",
 				"resetParameters" : {
-					"period" : 7,
+					"days" : 7,
 					"visitors" : true,
 					"rewards" : true
 				},
